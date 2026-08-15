@@ -1,0 +1,10 @@
+{
+ "headline": "Panel A runs 12.37 C above the physics prediction after eclipse exit.",
+ "reasoning": "Residual is stronger in sunlight and holds a constant offset across the window. Peak z-score 8.4 over 20.0 min. If the offset is constant in both phases, suspect a heater or thermostat.",
+ "likely_cause": "survival heater stuck ON",
+ "signature_id": "THERM-STU-01",
+ "is_model_error": false,
+ "confidence": 0.72,
+ "recommended_action": "Command the heater circuit OFF and confirm the residual collapses. If it does not, isolate the thermostat.",
+ "source": "template"
+}

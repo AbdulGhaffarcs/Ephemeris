@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+pydantic>=2.9
+httpx>=0.27
+numpy>=2.0
+skyfield>=1.49
+sgp4>=2.23
+python-dotenv>=1.0
