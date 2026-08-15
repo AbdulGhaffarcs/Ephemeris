@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, HTTPException, Query
 
 from physics.orbit_propagation import propagate
 from physics.thermal_model import predict
@@ -20,7 +20,10 @@ def get_prediction(
     step_s: int = Query(60, ge=10, le=600),
 ):
     t0 = datetime.fromisoformat(start) if start else datetime.now(timezone.utc)
-    states = propagate(t0, hours, step_s)
+    try:
+        states = propagate(t0, hours, step_s, norad_id=norad_id)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
     temps = predict(states, step_s)
 
     return [
