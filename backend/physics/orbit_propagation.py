@@ -22,6 +22,7 @@ import json
 import math
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Any
 
 import httpx
 import numpy as np
@@ -178,13 +179,13 @@ def propagate(
 
     # Satellite GCRS positions (km), shape (n, 3)
     gcrs = satellite.at(times)
-    pos_km = gcrs.position.km.T  # (n, 3)
+    pos_km = np.asarray(gcrs.position.km).T  # (n, 3)
 
     # Geocentric Sun direction in GCRS (Earth → Sun), shape (n, 3)
-    planets = load(str(_EPHEMERIS_PATH))
-    earth = planets["earth"]
+    planets: Any = load(str(_EPHEMERIS_PATH))
+    earth: Any = planets["earth"]
     sun_astrometric = earth.at(times).observe(planets["sun"])
-    sun_gcrs_km = sun_astrometric.position.km.T  # (n, 3)
+    sun_gcrs_km = np.asarray(sun_astrometric.position.km).T  # (n, 3)
 
     out = []
     for i in range(n):
