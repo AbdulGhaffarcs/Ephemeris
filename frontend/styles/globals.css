@@ -2,22 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tokens are mirrored here so plain SVG/inline styles (recharts strokes, the
+   sparkline in a stat tile) read the same values Tailwind compiles. One source,
+   two consumers — if you change a hue, change it in tailwind.config.js AND here. */
 :root {
   color-scheme: dark;
+
+  --hull: #0b1220;
+  --panel: #111a2b;
+  --raised: #16223a;
+  --edge: #1e2b42;
+  --grid: #1e2b42;
+  --night: #182135;
+
+  --ink: #e8edf5;
+  --dim: #b3c1d6;
+  --muted: #8296b4;
+
+  --predicted: #10a6ad;
+  --observed: #cb8315;
+  --residual: #8e9be8;
+
+  --good: #5bd99a;
+  --caution: #e8b44a;
+  --serious: #f0854a;
+  --critical: #ff7a6b;
+}
+
+html,
+body {
+  background: var(--hull);
+  color: var(--ink);
 }
 
 body {
-  background: #0B1220;
-  color: #E8EDF5;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Numbers are read, not skimmed — keep them monospaced and tabular. */
+/* Numbers are read, not skimmed — but only where they stack in a column.
+   Big standalone figures keep proportional digits (see .figure). */
 .tabular {
   font-variant-numeric: tabular-nums;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
+/* Stat-tile and hero values: same sans as everything else, proportional digits.
+   tabular-nums at display size makes 121 look loose. */
+.figure {
+  font-variant-numeric: proportional-nums;
+  letter-spacing: -0.02em;
+}
+
+/* Refetch holds the previous render instead of flashing a skeleton. */
+.stale {
+  opacity: 0.45;
+  transition: opacity 160ms ease-out;
+}
+
+/* Recharts paints its own focus outline off; put ours back on interactive rows. */
+.focusable:focus-visible {
+  outline: 2px solid var(--predicted);
+  outline-offset: 2px;
+}
+
+/* Scrollbars inside panels, so the alert feed doesn't punch a bright gutter. */
+.scroll-slim {
+  scrollbar-width: thin;
+  scrollbar-color: var(--edge) transparent;
+}
+.scroll-slim::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll-slim::-webkit-scrollbar-thumb {
+  background: var(--edge);
+  border-radius: 4px;
+}
+.scroll-slim::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Recharts injects a tabindex on the chart surface; suppress the double ring. */
+.recharts-wrapper:focus {
+  outline: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  * { animation: none !important; transition: none !important; }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
