@@ -1,50 +1,114 @@
-import { AnomalyPoint } from "../lib/types";
+import { AnomalyEvent } from "../lib/events";
+import {
+  LEVEL_BG,
+  LEVEL_LABEL,
+  LEVEL_TEXT,
+  clockS,
+  duration,
+  severityLevel,
+  signed,
+} from "../lib/format";
+import Panel from "./ui/Panel";
+import { StatusGlyph } from "./SummaryTiles";
 
-function severityColor(s: number) {
-  if (s > 0.66) return "text-alarm";
-  if (s > 0.33) return "text-observed";
-  return "text-muted";
-}
+const PHASE_NOTE: Record<AnomalyEvent["phase"], string> = {
+  sunlit: "sunlit only",
+  eclipse: "eclipse only",
+  spanning: "spans terminator",
+};
 
+/**
+ * The feed lists divergence *events*, not flagged samples. A single heater fault
+ * produces dozens of consecutive flags; listing each one buries the operator and
+ * makes four separate faults look identical to one long one.
+ */
 export default function AlertFeed({
-  points,
+  events,
+  selectedId,
   onSelect,
+  loading,
 }: {
-  points: AnomalyPoint[];
-  onSelect: (index: number) => void;
+  events: AnomalyEvent[];
+  selectedId: string | null;
+  onSelect: (e: AnomalyEvent) => void;
+  loading?: boolean;
 }) {
-  const flagged = points
-    .map((p, i) => ({ p, i }))
-    .filter(({ p }) => p.flagged);
-
   return (
-    <div className="rounded-lg border border-edge bg-panel p-4">
-      <h2 className="mb-3 text-sm font-semibold tracking-wide text-ink">
-        Alerts <span className="text-muted">({flagged.length})</span>
-      </h2>
-
-      {flagged.length === 0 ? (
-        <p className="text-sm text-muted">
-          Observed telemetry is tracking the prediction. Nothing to review.
-        </p>
-      ) : (
-        <ul className="max-h-72 space-y-1 overflow-y-auto">
-          {flagged.map(({ p, i }) => (
-            <li key={p.t}>
-              <button
-                onClick={() => onSelect(i)}
-                className="w-full rounded px-2 py-1.5 text-left text-sm hover:bg-edge focus:outline-none focus-visible:ring-2 focus-visible:ring-predicted"
-              >
-                <span className="tabular text-muted">{p.t.slice(11, 19)}</span>
-                <span className={`ml-3 tabular ${severityColor(p.severity)}`}>
-                  {p.residual > 0 ? "+" : ""}{p.residual.toFixed(2)}°C
-                </span>
-                <span className="ml-3 text-xs text-muted">z {p.zscore.toFixed(1)}</span>
-              </button>
-            </li>
+    <Panel
+      title={
+        <>
+          Divergence events{" "}
+          <span className="font-normal text-muted">({events.length})</span>
+        </>
+      }
+      subtitle="Contiguous flagged samples, collapsed."
+      bodyClassName="p-2"
+    >
+      {loading && !events.length ? (
+        <ul className="space-y-1 p-2" aria-hidden>
+          {[0, 1, 2].map((i) => (
+            <li key={i} className="h-14 animate-pulse rounded bg-raised" />
           ))}
         </ul>
+      ) : !events.length ? (
+        <p className="px-2 py-6 text-center text-sm text-muted">
+          Observed telemetry is tracking the prediction.
+          <br />
+          Nothing to review.
+        </p>
+      ) : (
+        <ul className="scroll-slim max-h-[420px] space-y-1 overflow-y-auto pr-1">
+          {events.map((e) => {
+            const level = severityLevel(e.peakSeverity);
+            const active = e.id === selectedId;
+            return (
+              <li key={e.id}>
+                <button
+                  onClick={() => onSelect(e)}
+                  aria-current={active}
+                  className={`focusable w-full rounded-md border px-3 py-2.5 text-left transition-colors ${
+                    active
+                      ? "border-edge bg-raised"
+                      : "border-transparent hover:bg-raised/60"
+                  }`}
+                >
+                  <div className="flex items-baseline justify-between gap-3">
+                    <span className={`text-xs font-semibold ${LEVEL_TEXT[level]}`}>
+                      <StatusGlyph level={level} /> {LEVEL_LABEL[level]}
+                    </span>
+                    <span className="tabular text-[11px] text-muted">
+                      {clockS(e.startT)} → {clockS(e.endT)}
+                    </span>
+                  </div>
+
+                  <div className="mt-1.5 flex items-baseline gap-2">
+                    <span className="figure text-lg font-semibold leading-none text-ink">
+                      {signed(e.peakResidual)}
+                      <span className="ml-0.5 text-xs font-normal text-muted">°C</span>
+                    </span>
+                    <span className="text-xs text-dim">
+                      {e.direction === "hot" ? "hotter" : "colder"} than predicted
+                    </span>
+                  </div>
+
+                  <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-muted">
+                    <span className="tabular">{duration(e.durationMin)}</span>
+                    <span className="tabular">z {signed(e.peakZ, 1)}</span>
+                    <span>{PHASE_NOTE[e.phase]}</span>
+                  </div>
+
+                  <div className="mt-2 h-1 w-full overflow-hidden rounded-full bg-edge">
+                    <div
+                      className={`h-full rounded-full ${LEVEL_BG[level]}`}
+                      style={{ width: `${Math.max(e.peakSeverity, 0.04) * 100}%` }}
+                    />
+                  </div>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
       )}
-    </div>
+    </Panel>
   );
 }
