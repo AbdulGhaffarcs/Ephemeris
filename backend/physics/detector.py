@@ -18,7 +18,7 @@ WINDOW = 30        # samples in the rolling baseline
 BURN_IN = 15       # samples before the baseline is trustworthy
 Z_FLAG = 4.2
 CUSUM_K = 0.6      # slack, in residual units
-CUSUM_FLAG = 10.0
+CUSUM_FLAG = 5.5
 
 
 def score(predicted: list[float], observed: list[float]) -> list[dict]:
