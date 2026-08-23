@@ -60,7 +60,7 @@ def _fault_offset(scenario: str, i: int, n: int) -> float:
 
 
 # Maximum magnitude of the per-orbit albedo jitter (°C).  Kept well below the
-# detector's noise floor (NOISE_SIGMA_C=0.35, Z_FLAG=3.8) so nominal runs never
+# detector's noise floor (NOISE_SIGMA_C=0.35, Z_FLAG=4.2) so nominal runs never
 # trip the anomaly detector, but large enough to produce visible orbit structure
 # in the residual plot.
 ORBIT_JITTER_C = 0.4

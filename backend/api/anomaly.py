@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from typing import Literal
 
 from fastapi import APIRouter, HTTPException, Query
 
@@ -10,6 +10,7 @@ from physics.orbit_propagation import propagate
 from physics.thermal_model import predict
 from physics.telemetry_sim import simulate, SCENARIOS
 from physics.detector import score
+from api.predict import parse_start
 
 router = APIRouter()
 
@@ -20,9 +21,11 @@ def get_anomalies(
     start: str | None = Query(None),
     hours: float = Query(3.0, ge=0.1, le=48),
     step_s: int = Query(60, ge=10, le=600),
-    scenario: str = Query("nominal", description=f"one of {SCENARIOS}"),
+    scenario: Literal["nominal", "spike", "drift", "fault"] = Query(
+        "nominal", description=f"one of {SCENARIOS}"
+    ),
 ):
-    t0 = datetime.fromisoformat(start) if start else datetime.now(timezone.utc)
+    t0 = parse_start(start)
     try:
         states = propagate(t0, hours, step_s, norad_id=norad_id)
     except ValueError as e:

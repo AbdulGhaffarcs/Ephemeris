@@ -1,6 +1,7 @@
 # Fixtures
 
-Contract-shaped sample responses, generated from the current backend stubs.
+Contract-shaped fallback responses for the dashboard when the live backend is
+unavailable.
 
 Track B develops against these until integration checkpoint 1 (22 Aug), so the
 frontend is never blocked on the physics core.

@@ -9,7 +9,7 @@
   "zscore": 0.041,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.006
+  "severity": 0.005
  },
  {
   "t": "2026-08-20T00:01:00+00:00",
@@ -21,7 +21,7 @@
   "zscore": 0.392,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.056
+  "severity": 0.047
  },
  {
   "t": "2026-08-20T00:02:00+00:00",
@@ -33,7 +33,7 @@
   "zscore": 0.054,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.008
+  "severity": 0.006
  },
  {
   "t": "2026-08-20T00:03:00+00:00",
@@ -45,7 +45,7 @@
   "zscore": 0.444,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.063
+  "severity": 0.053
  },
  {
   "t": "2026-08-20T00:04:00+00:00",
@@ -57,7 +57,7 @@
   "zscore": -0.127,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.018
+  "severity": 0.015
  },
  {
   "t": "2026-08-20T00:05:00+00:00",
@@ -69,7 +69,7 @@
   "zscore": 1.262,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.18
+  "severity": 0.15
  },
  {
   "t": "2026-08-20T00:06:00+00:00",
@@ -81,7 +81,7 @@
   "zscore": 3.232,
   "cusum": 0.208,
   "flagged": false,
-  "severity": 0.462
+  "severity": 0.385
  },
  {
   "t": "2026-08-20T00:07:00+00:00",
@@ -93,7 +93,7 @@
   "zscore": 1.626,
   "cusum": 0.134,
   "flagged": false,
-  "severity": 0.232
+  "severity": 0.194
  },
  {
   "t": "2026-08-20T00:08:00+00:00",
@@ -105,7 +105,7 @@
   "zscore": 2.113,
   "cusum": 0.27,
   "flagged": false,
-  "severity": 0.302
+  "severity": 0.252
  },
  {
   "t": "2026-08-20T00:09:00+00:00",
@@ -117,7 +117,7 @@
   "zscore": 1.082,
   "cusum": 0.105,
   "flagged": false,
-  "severity": 0.155
+  "severity": 0.129
  },
  {
   "t": "2026-08-20T00:10:00+00:00",
@@ -129,7 +129,7 @@
   "zscore": 1.214,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.173
+  "severity": 0.145
  },
  {
   "t": "2026-08-20T00:11:00+00:00",
@@ -141,7 +141,7 @@
   "zscore": 0.999,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.143
+  "severity": 0.119
  },
  {
   "t": "2026-08-20T00:12:00+00:00",
@@ -153,7 +153,7 @@
   "zscore": -0.593,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.085
+  "severity": 0.071
  },
  {
   "t": "2026-08-20T00:13:00+00:00",
@@ -165,7 +165,7 @@
   "zscore": 1.721,
   "cusum": 0.084,
   "flagged": false,
-  "severity": 0.246
+  "severity": 0.205
  },
  {
   "t": "2026-08-20T00:14:00+00:00",
@@ -177,7 +177,7 @@
   "zscore": 1.26,
   "cusum": 0.014,
   "flagged": false,
-  "severity": 0.18
+  "severity": 0.15
  },
  {
   "t": "2026-08-20T00:15:00+00:00",
@@ -189,7 +189,7 @@
   "zscore": 1.185,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.169
+  "severity": 0.141
  },
  {
   "t": "2026-08-20T00:16:00+00:00",
@@ -201,7 +201,7 @@
   "zscore": -0.651,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.093
+  "severity": 0.077
  },
  {
   "t": "2026-08-20T00:17:00+00:00",
@@ -213,7 +213,7 @@
   "zscore": -0.65,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.093
+  "severity": 0.077
  },
  {
   "t": "2026-08-20T00:18:00+00:00",
@@ -225,7 +225,7 @@
   "zscore": 0.109,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.016
+  "severity": 0.013
  },
  {
   "t": "2026-08-20T00:19:00+00:00",
@@ -237,7 +237,7 @@
   "zscore": 0.485,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.069
+  "severity": 0.058
  },
  {
   "t": "2026-08-20T00:20:00+00:00",
@@ -249,7 +249,7 @@
   "zscore": 1.173,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.168
+  "severity": 0.14
  },
  {
   "t": "2026-08-20T00:21:00+00:00",
@@ -261,7 +261,7 @@
   "zscore": 0.832,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.119
+  "severity": 0.099
  },
  {
   "t": "2026-08-20T00:22:00+00:00",
@@ -273,7 +273,7 @@
   "zscore": 1.338,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.191
+  "severity": 0.159
  },
  {
   "t": "2026-08-20T00:23:00+00:00",
@@ -285,7 +285,7 @@
   "zscore": 0.303,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.043
+  "severity": 0.036
  },
  {
   "t": "2026-08-20T00:24:00+00:00",
@@ -297,7 +297,7 @@
   "zscore": 1.174,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.168
+  "severity": 0.14
  },
  {
   "t": "2026-08-20T00:25:00+00:00",
@@ -309,7 +309,7 @@
   "zscore": 1.217,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.174
+  "severity": 0.145
  },
  {
   "t": "2026-08-20T00:26:00+00:00",
@@ -321,7 +321,7 @@
   "zscore": 0.252,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.036
+  "severity": 0.03
  },
  {
   "t": "2026-08-20T00:27:00+00:00",
@@ -333,7 +333,7 @@
   "zscore": 2.359,
   "cusum": 0.332,
   "flagged": false,
-  "severity": 0.337
+  "severity": 0.281
  },
  {
   "t": "2026-08-20T00:28:00+00:00",
@@ -345,7 +345,7 @@
   "zscore": 1.165,
   "cusum": 0.228,
   "flagged": false,
-  "severity": 0.166
+  "severity": 0.139
  },
  {
   "t": "2026-08-20T00:29:00+00:00",
@@ -357,7 +357,7 @@
   "zscore": 1.652,
   "cusum": 0.334,
   "flagged": false,
-  "severity": 0.236
+  "severity": 0.197
  },
  {
   "t": "2026-08-20T00:30:00+00:00",
@@ -369,7 +369,7 @@
   "zscore": 0.124,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.018
+  "severity": 0.015
  },
  {
   "t": "2026-08-20T00:31:00+00:00",
@@ -381,7 +381,7 @@
   "zscore": -0.018,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.003
+  "severity": 0.002
  },
  {
   "t": "2026-08-20T00:32:00+00:00",
@@ -393,7 +393,7 @@
   "zscore": 0.341,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.049
+  "severity": 0.041
  },
  {
   "t": "2026-08-20T00:33:00+00:00",
@@ -405,7 +405,7 @@
   "zscore": 0.581,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.083
+  "severity": 0.069
  },
  {
   "t": "2026-08-20T00:34:00+00:00",
@@ -417,7 +417,7 @@
   "zscore": 1.379,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.197
+  "severity": 0.164
  },
  {
   "t": "2026-08-20T00:35:00+00:00",
@@ -429,7 +429,7 @@
   "zscore": 1.061,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.152
+  "severity": 0.126
  },
  {
   "t": "2026-08-20T00:36:00+00:00",
@@ -441,7 +441,7 @@
   "zscore": 0.363,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.052
+  "severity": 0.043
  },
  {
   "t": "2026-08-20T00:37:00+00:00",
@@ -453,7 +453,7 @@
   "zscore": -0.055,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.008
+  "severity": 0.007
  },
  {
   "t": "2026-08-20T00:38:00+00:00",
@@ -465,7 +465,7 @@
   "zscore": 0.62,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.089
+  "severity": 0.074
  },
  {
   "t": "2026-08-20T00:39:00+00:00",
@@ -477,7 +477,7 @@
   "zscore": 2.805,
   "cusum": 0.261,
   "flagged": false,
-  "severity": 0.401
+  "severity": 0.334
  },
  {
   "t": "2026-08-20T00:40:00+00:00",
@@ -489,7 +489,7 @@
   "zscore": 0.545,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.078
+  "severity": 0.065
  },
  {
   "t": "2026-08-20T00:41:00+00:00",
@@ -501,7 +501,7 @@
   "zscore": 1.804,
   "cusum": 0.02,
   "flagged": false,
-  "severity": 0.258
+  "severity": 0.215
  },
  {
   "t": "2026-08-20T00:42:00+00:00",
@@ -513,7 +513,7 @@
   "zscore": 2.033,
   "cusum": 0.151,
   "flagged": false,
-  "severity": 0.29
+  "severity": 0.242
  },
  {
   "t": "2026-08-20T00:43:00+00:00",
@@ -525,7 +525,7 @@
   "zscore": 0.24,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.034
+  "severity": 0.029
  },
  {
   "t": "2026-08-20T00:44:00+00:00",
@@ -537,7 +537,7 @@
   "zscore": 1.965,
   "cusum": 0.096,
   "flagged": false,
-  "severity": 0.281
+  "severity": 0.234
  },
  {
   "t": "2026-08-20T00:45:00+00:00",
@@ -549,7 +549,7 @@
   "zscore": 3.149,
   "cusum": 0.679,
   "flagged": false,
-  "severity": 0.45
+  "severity": 0.375
  },
  {
   "t": "2026-08-20T00:46:00+00:00",
@@ -561,7 +561,7 @@
   "zscore": 0.108,
   "cusum": 0.125,
   "flagged": false,
-  "severity": 0.015
+  "severity": 0.013
  },
  {
   "t": "2026-08-20T00:47:00+00:00",
@@ -573,7 +573,7 @@
   "zscore": 1.656,
   "cusum": 0.194,
   "flagged": false,
-  "severity": 0.237
+  "severity": 0.197
  },
  {
   "t": "2026-08-20T00:48:00+00:00",
@@ -585,7 +585,7 @@
   "zscore": 1.919,
   "cusum": 0.339,
   "flagged": false,
-  "severity": 0.274
+  "severity": 0.228
  },
  {
   "t": "2026-08-20T00:49:00+00:00",
@@ -597,7 +597,7 @@
   "zscore": 1.257,
   "cusum": 0.233,
   "flagged": false,
-  "severity": 0.18
+  "severity": 0.15
  },
  {
   "t": "2026-08-20T00:50:00+00:00",
@@ -609,7 +609,7 @@
   "zscore": 2.435,
   "cusum": 0.588,
   "flagged": false,
-  "severity": 0.348
+  "severity": 0.29
  },
  {
   "t": "2026-08-20T00:51:00+00:00",
@@ -621,7 +621,7 @@
   "zscore": 1.746,
   "cusum": 0.73,
   "flagged": false,
-  "severity": 0.249
+  "severity": 0.208
  },
  {
   "t": "2026-08-20T00:52:00+00:00",
@@ -633,7 +633,7 @@
   "zscore": 0.512,
   "cusum": 0.354,
   "flagged": false,
-  "severity": 0.073
+  "severity": 0.061
  },
  {
   "t": "2026-08-20T00:53:00+00:00",
@@ -645,7 +645,7 @@
   "zscore": 2.307,
   "cusum": 0.765,
   "flagged": false,
-  "severity": 0.33
+  "severity": 0.275
  },
  {
   "t": "2026-08-20T00:54:00+00:00",
@@ -657,7 +657,7 @@
   "zscore": 1.936,
   "cusum": 1.052,
   "flagged": false,
-  "severity": 0.277
+  "severity": 0.231
  },
  {
   "t": "2026-08-20T00:55:00+00:00",
@@ -669,7 +669,7 @@
   "zscore": 1.906,
   "cusum": 1.367,
   "flagged": false,
-  "severity": 0.272
+  "severity": 0.227
  },
  {
   "t": "2026-08-20T00:56:00+00:00",
@@ -681,7 +681,7 @@
   "zscore": 2.001,
   "cusum": 1.774,
   "flagged": false,
-  "severity": 0.286
+  "severity": 0.238
  },
  {
   "t": "2026-08-20T00:57:00+00:00",
@@ -693,7 +693,7 @@
   "zscore": 1.007,
   "cusum": 1.693,
   "flagged": false,
-  "severity": 0.144
+  "severity": 0.154
  },
  {
   "t": "2026-08-20T00:58:00+00:00",
@@ -705,7 +705,7 @@
   "zscore": 0.673,
   "cusum": 1.445,
   "flagged": false,
-  "severity": 0.096
+  "severity": 0.131
  },
  {
   "t": "2026-08-20T00:59:00+00:00",
@@ -717,7 +717,7 @@
   "zscore": -0.469,
   "cusum": 0.6,
   "flagged": false,
-  "severity": 0.067
+  "severity": 0.056
  },
  {
   "t": "2026-08-20T01:00:00+00:00",
@@ -729,7 +729,7 @@
   "zscore": 0.65,
   "cusum": 0.34,
   "flagged": false,
-  "severity": 0.093
+  "severity": 0.077
  },
  {
   "t": "2026-08-20T01:01:00+00:00",
@@ -741,7 +741,7 @@
   "zscore": -0.445,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.064
+  "severity": 0.053
  },
  {
   "t": "2026-08-20T01:02:00+00:00",
@@ -753,7 +753,7 @@
   "zscore": -0.615,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.088
+  "severity": 0.073
  },
  {
   "t": "2026-08-20T01:03:00+00:00",
@@ -765,7 +765,7 @@
   "zscore": -1.521,
   "cusum": -0.105,
   "flagged": false,
-  "severity": 0.217
+  "severity": 0.181
  },
  {
   "t": "2026-08-20T01:04:00+00:00",
@@ -777,7 +777,7 @@
   "zscore": -1.535,
   "cusum": -0.22,
   "flagged": false,
-  "severity": 0.219
+  "severity": 0.183
  },
  {
   "t": "2026-08-20T01:05:00+00:00",
@@ -789,7 +789,7 @@
   "zscore": -1.397,
   "cusum": -0.291,
   "flagged": false,
-  "severity": 0.2
+  "severity": 0.166
  },
  {
   "t": "2026-08-20T01:06:00+00:00",
@@ -801,7 +801,7 @@
   "zscore": -0.302,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.043
+  "severity": 0.036
  },
  {
   "t": "2026-08-20T01:07:00+00:00",
@@ -813,7 +813,7 @@
   "zscore": -3.04,
   "cusum": -0.847,
   "flagged": false,
-  "severity": 0.434
+  "severity": 0.362
  },
  {
   "t": "2026-08-20T01:08:00+00:00",
@@ -825,7 +825,7 @@
   "zscore": -2.554,
   "cusum": -1.59,
   "flagged": false,
-  "severity": 0.365
+  "severity": 0.304
  },
  {
   "t": "2026-08-20T01:09:00+00:00",
@@ -837,7 +837,7 @@
   "zscore": -1.467,
   "cusum": -1.829,
   "flagged": false,
-  "severity": 0.21
+  "severity": 0.175
  },
  {
   "t": "2026-08-20T01:10:00+00:00",
@@ -849,7 +849,7 @@
   "zscore": -0.849,
   "cusum": -1.73,
   "flagged": false,
-  "severity": 0.121
+  "severity": 0.157
  },
  {
   "t": "2026-08-20T01:11:00+00:00",
@@ -861,7 +861,7 @@
   "zscore": -1.567,
   "cusum": -2.058,
   "flagged": false,
-  "severity": 0.224
+  "severity": 0.187
  },
  {
   "t": "2026-08-20T01:12:00+00:00",
@@ -873,7 +873,7 @@
   "zscore": -3.082,
   "cusum": -3.353,
   "flagged": false,
-  "severity": 0.44
+  "severity": 0.367
  },
  {
   "t": "2026-08-20T01:13:00+00:00",
@@ -885,7 +885,7 @@
   "zscore": -3.103,
   "cusum": -4.929,
   "flagged": false,
-  "severity": 0.443
+  "severity": 0.448
  },
  {
   "t": "2026-08-20T01:14:00+00:00",
@@ -897,7 +897,7 @@
   "zscore": -1.549,
   "cusum": -5.57,
   "flagged": false,
-  "severity": 0.278
+  "severity": 0.506
  },
  {
   "t": "2026-08-20T01:15:00+00:00",
@@ -907,9 +907,9 @@
   "observed_c": -17.268,
   "residual": -0.1,
   "zscore": -2.053,
-  "cusum": -6.671,
+  "cusum": -1.102,
   "flagged": false,
-  "severity": 0.334
+  "severity": 0.244
  },
  {
   "t": "2026-08-20T01:16:00+00:00",
@@ -919,9 +919,9 @@
   "observed_c": -16.624,
   "residual": -0.357,
   "zscore": -2.162,
-  "cusum": -7.943,
+  "cusum": -2.374,
   "flagged": false,
-  "severity": 0.397
+  "severity": 0.257
  },
  {
   "t": "2026-08-20T01:17:00+00:00",
@@ -931,9 +931,9 @@
   "observed_c": -14.991,
   "residual": 0.259,
   "zscore": -1.29,
-  "cusum": -8.541,
+  "cusum": -2.971,
   "flagged": false,
-  "severity": 0.427
+  "severity": 0.27
  },
  {
   "t": "2026-08-20T01:18:00+00:00",
@@ -943,9 +943,9 @@
   "observed_c": -13.936,
   "residual": 0.196,
   "zscore": -1.269,
-  "cusum": -9.142,
+  "cusum": -3.572,
   "flagged": false,
-  "severity": 0.457
+  "severity": 0.325
  },
  {
   "t": "2026-08-20T01:19:00+00:00",
@@ -955,9 +955,9 @@
   "observed_c": -13.156,
   "residual": -0.231,
   "zscore": -1.63,
-  "cusum": -10.104,
-  "flagged": true,
-  "severity": 0.505
+  "cusum": -4.534,
+  "flagged": false,
+  "severity": 0.412
  },
  {
   "t": "2026-08-20T01:20:00+00:00",
@@ -967,9 +967,9 @@
   "observed_c": -11.926,
   "residual": -0.285,
   "zscore": -1.558,
-  "cusum": -0.943,
+  "cusum": -5.477,
   "flagged": false,
-  "severity": 0.223
+  "severity": 0.498
  },
  {
   "t": "2026-08-20T01:21:00+00:00",
@@ -979,9 +979,9 @@
   "observed_c": -10.584,
   "residual": -0.291,
   "zscore": -1.454,
-  "cusum": -1.8,
+  "cusum": -6.335,
   "flagged": false,
-  "severity": 0.208
+  "severity": 0.576
  },
  {
   "t": "2026-08-20T01:22:00+00:00",
@@ -991,9 +991,9 @@
   "observed_c": -8.782,
   "residual": 0.11,
   "zscore": -0.958,
-  "cusum": -2.17,
+  "cusum": -0.37,
   "flagged": false,
-  "severity": 0.137
+  "severity": 0.114
  },
  {
   "t": "2026-08-20T01:23:00+00:00",
@@ -1003,9 +1003,9 @@
   "observed_c": -7.675,
   "residual": -0.222,
   "zscore": -1.224,
-  "cusum": -2.816,
+  "cusum": -1.016,
   "flagged": false,
-  "severity": 0.175
+  "severity": 0.146
  },
  {
   "t": "2026-08-20T01:24:00+00:00",
@@ -1015,9 +1015,9 @@
   "observed_c": -6.221,
   "residual": -0.235,
   "zscore": -1.167,
-  "cusum": -3.38,
+  "cusum": -1.58,
   "flagged": false,
-  "severity": 0.169
+  "severity": 0.144
  },
  {
   "t": "2026-08-20T01:25:00+00:00",
@@ -1027,9 +1027,9 @@
   "observed_c": -4.693,
   "residual": -0.19,
   "zscore": -1.056,
-  "cusum": -3.807,
+  "cusum": -2.006,
   "flagged": false,
-  "severity": 0.19
+  "severity": 0.182
  },
  {
   "t": "2026-08-20T01:26:00+00:00",
@@ -1039,9 +1039,9 @@
   "observed_c": -3.901,
   "residual": -0.884,
   "zscore": -1.749,
-  "cusum": -4.834,
+  "cusum": -3.034,
   "flagged": false,
-  "severity": 0.25
+  "severity": 0.276
  },
  {
   "t": "2026-08-20T01:27:00+00:00",
@@ -1051,9 +1051,9 @@
   "observed_c": -1.366,
   "residual": 0.173,
   "zscore": -0.5,
-  "cusum": -4.683,
+  "cusum": -2.883,
   "flagged": false,
-  "severity": 0.234
+  "severity": 0.262
  },
  {
   "t": "2026-08-20T01:28:00+00:00",
@@ -1063,9 +1063,9 @@
   "observed_c": 0.048,
   "residual": 0.128,
   "zscore": -0.501,
-  "cusum": -4.506,
+  "cusum": -2.706,
   "flagged": false,
-  "severity": 0.225
+  "severity": 0.246
  },
  {
   "t": "2026-08-20T01:29:00+00:00",
@@ -1075,9 +1075,9 @@
   "observed_c": 1.407,
   "residual": 0.058,
   "zscore": -0.537,
-  "cusum": -4.331,
+  "cusum": -2.531,
   "flagged": false,
-  "severity": 0.217
+  "severity": 0.23
  },
  {
   "t": "2026-08-20T01:30:00+00:00",
@@ -1087,9 +1087,9 @@
   "observed_c": 2.007,
   "residual": -0.731,
   "zscore": -1.515,
-  "cusum": -4.894,
+  "cusum": -3.094,
   "flagged": false,
-  "severity": 0.245
+  "severity": 0.281
  },
  {
   "t": "2026-08-20T01:31:00+00:00",
@@ -1099,9 +1099,9 @@
   "observed_c": 3.909,
   "residual": -0.168,
   "zscore": -0.695,
-  "cusum": -4.797,
+  "cusum": -2.997,
   "flagged": false,
-  "severity": 0.24
+  "severity": 0.272
  },
  {
   "t": "2026-08-20T01:32:00+00:00",
@@ -1111,9 +1111,9 @@
   "observed_c": 5.804,
   "residual": 0.448,
   "zscore": 0.253,
-  "cusum": -4.024,
+  "cusum": -2.223,
   "flagged": false,
-  "severity": 0.201
+  "severity": 0.202
  },
  {
   "t": "2026-08-20T01:33:00+00:00",
@@ -1123,9 +1123,9 @@
   "observed_c": 6.189,
   "residual": -0.377,
   "zscore": -0.955,
-  "cusum": -4.037,
+  "cusum": -2.237,
   "flagged": false,
-  "severity": 0.202
+  "severity": 0.203
  },
  {
   "t": "2026-08-20T01:34:00+00:00",
@@ -1135,9 +1135,9 @@
   "observed_c": 7.997,
   "residual": 0.298,
   "zscore": 0.183,
-  "cusum": -3.322,
+  "cusum": -1.522,
   "flagged": false,
-  "severity": 0.166
+  "severity": 0.138
  },
  {
   "t": "2026-08-20T01:35:00+00:00",
@@ -1147,9 +1147,9 @@
   "observed_c": 9.574,
   "residual": 0.829,
   "zscore": 1.131,
-  "cusum": -2.047,
+  "cusum": -0.247,
   "flagged": false,
-  "severity": 0.162
+  "severity": 0.135
  },
  {
   "t": "2026-08-20T01:36:00+00:00",
@@ -1159,9 +1159,9 @@
   "observed_c": 9.82,
   "residual": 0.121,
   "zscore": -0.034,
-  "cusum": -1.467,
+  "cusum": 0.0,
   "flagged": false,
-  "severity": 0.073
+  "severity": 0.004
  },
  {
   "t": "2026-08-20T01:37:00+00:00",
@@ -1173,7 +1173,7 @@
   "zscore": 2.353,
   "cusum": 0.565,
   "flagged": false,
-  "severity": 0.336
+  "severity": 0.28
  },
  {
   "t": "2026-08-20T01:38:00+00:00",
@@ -1185,7 +1185,7 @@
   "zscore": 1.64,
   "cusum": 0.841,
   "flagged": false,
-  "severity": 0.234
+  "severity": 0.195
  },
  {
   "t": "2026-08-20T01:39:00+00:00",
@@ -1197,7 +1197,7 @@
   "zscore": 1.3,
   "cusum": 0.959,
   "flagged": false,
-  "severity": 0.186
+  "severity": 0.155
  },
  {
   "t": "2026-08-20T01:40:00+00:00",
@@ -1209,7 +1209,7 @@
   "zscore": 1.823,
   "cusum": 1.35,
   "flagged": false,
-  "severity": 0.26
+  "severity": 0.217
  },
  {
   "t": "2026-08-20T01:41:00+00:00",
@@ -1221,7 +1221,7 @@
   "zscore": 2.28,
   "cusum": 1.958,
   "flagged": false,
-  "severity": 0.326
+  "severity": 0.271
  },
  {
   "t": "2026-08-20T01:42:00+00:00",
@@ -1233,7 +1233,7 @@
   "zscore": 1.982,
   "cusum": 2.461,
   "flagged": false,
-  "severity": 0.283
+  "severity": 0.236
  },
  {
   "t": "2026-08-20T01:43:00+00:00",
@@ -1245,7 +1245,7 @@
   "zscore": 2.56,
   "cusum": 3.366,
   "flagged": false,
-  "severity": 0.366
+  "severity": 0.306
  },
  {
   "t": "2026-08-20T01:44:00+00:00",
@@ -1257,7 +1257,7 @@
   "zscore": 1.396,
   "cusum": 3.653,
   "flagged": false,
-  "severity": 0.199
+  "severity": 0.332
  },
  {
   "t": "2026-08-20T01:45:00+00:00",
@@ -1269,7 +1269,7 @@
   "zscore": 1.576,
   "cusum": 4.083,
   "flagged": false,
-  "severity": 0.225
+  "severity": 0.371
  },
  {
   "t": "2026-08-20T01:46:00+00:00",
@@ -1281,7 +1281,7 @@
   "zscore": 2.325,
   "cusum": 5.054,
   "flagged": false,
-  "severity": 0.332
+  "severity": 0.459
  },
  {
   "t": "2026-08-20T01:47:00+00:00",
@@ -1292,8 +1292,8 @@
   "residual": 1.609,
   "zscore": 1.691,
   "cusum": 5.67,
-  "flagged": false,
-  "severity": 0.284
+  "flagged": true,
+  "severity": 0.515
  },
  {
   "t": "2026-08-20T01:48:00+00:00",
@@ -1303,9 +1303,9 @@
   "observed_c": 13.338,
   "residual": 1.364,
   "zscore": 1.234,
-  "cusum": 5.997,
+  "cusum": 0.327,
   "flagged": false,
-  "severity": 0.3
+  "severity": 0.147
  },
  {
   "t": "2026-08-20T01:49:00+00:00",
@@ -1315,9 +1315,9 @@
   "observed_c": 13.394,
   "residual": 2.075,
   "zscore": 2.082,
-  "cusum": 6.996,
+  "cusum": 1.326,
   "flagged": false,
-  "severity": 0.35
+  "severity": 0.248
  },
  {
   "t": "2026-08-20T01:50:00+00:00",
@@ -1327,9 +1327,9 @@
   "observed_c": 12.861,
   "residual": 2.328,
   "zscore": 2.198,
-  "cusum": 8.171,
+  "cusum": 2.501,
   "flagged": false,
-  "severity": 0.409
+  "severity": 0.262
  },
  {
   "t": "2026-08-20T01:51:00+00:00",
@@ -1339,9 +1339,9 @@
   "observed_c": 11.351,
   "residual": 1.732,
   "zscore": 1.281,
-  "cusum": 8.663,
+  "cusum": 2.992,
   "flagged": false,
-  "severity": 0.433
+  "severity": 0.272
  },
  {
   "t": "2026-08-20T01:52:00+00:00",
@@ -1351,9 +1351,9 @@
   "observed_c": 10.06,
   "residual": 1.48,
   "zscore": 0.902,
-  "cusum": 8.835,
+  "cusum": 3.165,
   "flagged": false,
-  "severity": 0.442
+  "severity": 0.288
  },
  {
   "t": "2026-08-20T01:53:00+00:00",
@@ -1363,9 +1363,9 @@
   "observed_c": 9.414,
   "residual": 1.994,
   "zscore": 1.444,
-  "cusum": 9.476,
+  "cusum": 3.806,
   "flagged": false,
-  "severity": 0.474
+  "severity": 0.346
  },
  {
   "t": "2026-08-20T01:54:00+00:00",
@@ -1375,9 +1375,9 @@
   "observed_c": 8.214,
   "residual": 2.07,
   "zscore": 1.433,
-  "cusum": 10.119,
-  "flagged": true,
-  "severity": 0.506
+  "cusum": 4.449,
+  "flagged": false,
+  "severity": 0.404
  },
  {
   "t": "2026-08-20T01:55:00+00:00",
@@ -1387,9 +1387,9 @@
   "observed_c": 6.861,
   "residual": 2.106,
   "zscore": 1.378,
-  "cusum": 0.602,
+  "cusum": 5.051,
   "flagged": false,
-  "severity": 0.197
+  "severity": 0.459
  },
  {
   "t": "2026-08-20T01:56:00+00:00",
@@ -1399,9 +1399,9 @@
   "observed_c": 6.057,
   "residual": 2.796,
   "zscore": 2.078,
-  "cusum": 1.818,
-  "flagged": false,
-  "severity": 0.297
+  "cusum": 6.266,
+  "flagged": true,
+  "severity": 0.57
  },
  {
   "t": "2026-08-20T01:57:00+00:00",
@@ -1411,9 +1411,9 @@
   "observed_c": 3.877,
   "residual": 2.031,
   "zscore": 1.077,
-  "cusum": 2.145,
+  "cusum": 0.328,
   "flagged": false,
-  "severity": 0.154
+  "severity": 0.128
  },
  {
   "t": "2026-08-20T01:58:00+00:00",
@@ -1423,9 +1423,9 @@
   "observed_c": 3.424,
   "residual": 2.912,
   "zscore": 2.034,
-  "cusum": 3.292,
+  "cusum": 1.475,
   "flagged": false,
-  "severity": 0.291
+  "severity": 0.242
  },
  {
   "t": "2026-08-20T01:59:00+00:00",
@@ -1435,9 +1435,9 @@
   "observed_c": 1.357,
   "residual": 2.103,
   "zscore": 0.948,
-  "cusum": 3.538,
+  "cusum": 1.72,
   "flagged": false,
-  "severity": 0.177
+  "severity": 0.156
  },
  {
   "t": "2026-08-20T02:00:00+00:00",
@@ -1447,9 +1447,9 @@
   "observed_c": 0.416,
   "residual": 2.348,
   "zscore": 1.167,
-  "cusum": 3.959,
+  "cusum": 2.142,
   "flagged": false,
-  "severity": 0.198
+  "severity": 0.195
  },
  {
   "t": "2026-08-20T02:01:00+00:00",
@@ -1459,9 +1459,9 @@
   "observed_c": -0.13,
   "residual": 2.92,
   "zscore": 1.85,
-  "cusum": 4.851,
+  "cusum": 3.033,
   "flagged": false,
-  "severity": 0.264
+  "severity": 0.276
  },
  {
   "t": "2026-08-20T02:02:00+00:00",
@@ -1471,9 +1471,9 @@
   "observed_c": -0.931,
   "residual": 3.173,
   "zscore": 2.071,
-  "cusum": 5.892,
+  "cusum": 4.075,
   "flagged": false,
-  "severity": 0.296
+  "severity": 0.37
  },
  {
   "t": "2026-08-20T02:03:00+00:00",
@@ -1483,9 +1483,9 @@
   "observed_c": -1.936,
   "residual": 3.162,
   "zscore": 1.88,
-  "cusum": 6.832,
+  "cusum": 5.014,
   "flagged": false,
-  "severity": 0.342
+  "severity": 0.456
  },
  {
   "t": "2026-08-20T02:04:00+00:00",
@@ -1495,9 +1495,9 @@
   "observed_c": -2.965,
   "residual": 3.071,
   "zscore": 1.714,
-  "cusum": 7.562,
-  "flagged": false,
-  "severity": 0.378
+  "cusum": 5.745,
+  "flagged": true,
+  "severity": 0.522
  },
  {
   "t": "2026-08-20T02:05:00+00:00",
@@ -1507,9 +1507,9 @@
   "observed_c": -3.825,
   "residual": 3.094,
   "zscore": 1.651,
-  "cusum": 8.224,
+  "cusum": 0.661,
   "flagged": false,
-  "severity": 0.411
+  "severity": 0.197
  },
  {
   "t": "2026-08-20T02:06:00+00:00",
@@ -1519,9 +1519,9 @@
   "observed_c": -4.553,
   "residual": 3.2,
   "zscore": 1.671,
-  "cusum": 8.915,
+  "cusum": 1.353,
   "flagged": false,
-  "severity": 0.446
+  "severity": 0.199
  },
  {
   "t": "2026-08-20T02:07:00+00:00",
@@ -1531,9 +1531,9 @@
   "observed_c": -5.083,
   "residual": 3.455,
   "zscore": 1.973,
-  "cusum": 9.759,
+  "cusum": 2.197,
   "flagged": false,
-  "severity": 0.488
+  "severity": 0.235
  },
  {
   "t": "2026-08-20T02:08:00+00:00",
@@ -1543,9 +1543,9 @@
   "observed_c": -5.971,
   "residual": 3.308,
   "zscore": 1.605,
-  "cusum": 10.383,
-  "flagged": true,
-  "severity": 0.519
+  "cusum": 2.82,
+  "flagged": false,
+  "severity": 0.256
  },
  {
   "t": "2026-08-20T02:09:00+00:00",
@@ -1555,9 +1555,9 @@
   "observed_c": -6.388,
   "residual": 3.589,
   "zscore": 1.866,
-  "cusum": 0.827,
+  "cusum": 3.648,
   "flagged": false,
-  "severity": 0.267
+  "severity": 0.332
  },
  {
   "t": "2026-08-20T02:10:00+00:00",
@@ -1567,9 +1567,9 @@
   "observed_c": -6.815,
   "residual": 3.821,
   "zscore": 2.047,
-  "cusum": 1.795,
+  "cusum": 4.616,
   "flagged": false,
-  "severity": 0.292
+  "severity": 0.42
  },
  {
   "t": "2026-08-20T02:11:00+00:00",
@@ -1579,9 +1579,9 @@
   "observed_c": -7.502,
   "residual": 3.754,
   "zscore": 1.796,
-  "cusum": 2.606,
+  "cusum": 5.426,
   "flagged": false,
-  "severity": 0.257
+  "severity": 0.493
  },
  {
   "t": "2026-08-20T02:12:00+00:00",
@@ -1591,9 +1591,9 @@
   "observed_c": -7.681,
   "residual": 4.161,
   "zscore": 2.167,
-  "cusum": 3.742,
-  "flagged": false,
-  "severity": 0.31
+  "cusum": 6.563,
+  "flagged": true,
+  "severity": 0.597
  },
  {
   "t": "2026-08-20T02:13:00+00:00",
@@ -1603,9 +1603,9 @@
   "observed_c": -8.16,
   "residual": 4.234,
   "zscore": 2.067,
-  "cusum": 4.854,
+  "cusum": 1.112,
   "flagged": false,
-  "severity": 0.295
+  "severity": 0.246
  },
  {
   "t": "2026-08-20T02:14:00+00:00",
@@ -1615,9 +1615,9 @@
   "observed_c": -8.03,
   "residual": 4.884,
   "zscore": 2.624,
-  "cusum": 6.531,
+  "cusum": 2.789,
   "flagged": false,
-  "severity": 0.375
+  "severity": 0.312
  },
  {
   "t": "2026-08-20T02:15:00+00:00",
@@ -1627,9 +1627,9 @@
   "observed_c": -8.965,
   "residual": 4.44,
   "zscore": 1.866,
-  "cusum": 7.639,
+  "cusum": 3.897,
   "flagged": false,
-  "severity": 0.382
+  "severity": 0.354
  },
  {
   "t": "2026-08-20T02:16:00+00:00",
@@ -1639,9 +1639,9 @@
   "observed_c": -9.545,
   "residual": 4.322,
   "zscore": 1.606,
-  "cusum": 8.525,
+  "cusum": 4.782,
   "flagged": false,
-  "severity": 0.426
+  "severity": 0.435
  },
  {
   "t": "2026-08-20T02:17:00+00:00",
@@ -1651,9 +1651,9 @@
   "observed_c": -9.819,
   "residual": 4.484,
   "zscore": 1.658,
-  "cusum": 9.491,
-  "flagged": false,
-  "severity": 0.475
+  "cusum": 5.748,
+  "flagged": true,
+  "severity": 0.523
  },
  {
   "t": "2026-08-20T02:18:00+00:00",
@@ -1663,9 +1663,9 @@
   "observed_c": -9.965,
   "residual": 4.75,
   "zscore": 1.822,
-  "cusum": 10.627,
-  "flagged": true,
-  "severity": 0.531
+  "cusum": 1.136,
+  "flagged": false,
+  "severity": 0.217
  },
  {
   "t": "2026-08-20T02:19:00+00:00",
@@ -1675,9 +1675,9 @@
   "observed_c": -9.89,
   "residual": 5.212,
   "zscore": 2.192,
-  "cusum": 1.485,
+  "cusum": 2.622,
   "flagged": false,
-  "severity": 0.313
+  "severity": 0.261
  },
  {
   "t": "2026-08-20T02:20:00+00:00",
@@ -1687,9 +1687,9 @@
   "observed_c": -10.568,
   "residual": 4.9,
   "zscore": 1.667,
-  "cusum": 2.554,
+  "cusum": 3.691,
   "flagged": false,
-  "severity": 0.238
+  "severity": 0.336
  },
  {
   "t": "2026-08-20T02:21:00+00:00",
@@ -1699,9 +1699,9 @@
   "observed_c": -10.54,
   "residual": 5.273,
   "zscore": 1.899,
-  "cusum": 3.91,
+  "cusum": 5.047,
   "flagged": false,
-  "severity": 0.271
+  "severity": 0.459
  },
  {
   "t": "2026-08-20T02:22:00+00:00",
@@ -1711,9 +1711,9 @@
   "observed_c": -10.246,
   "residual": 5.892,
   "zscore": 2.353,
-  "cusum": 5.768,
-  "flagged": false,
-  "severity": 0.336
+  "cusum": 6.904,
+  "flagged": true,
+  "severity": 0.628
  },
  {
   "t": "2026-08-20T02:23:00+00:00",
@@ -1723,9 +1723,9 @@
   "observed_c": -11.993,
   "residual": 4.451,
   "zscore": 0.813,
-  "cusum": 6.037,
+  "cusum": 0.269,
   "flagged": false,
-  "severity": 0.302
+  "severity": 0.097
  },
  {
   "t": "2026-08-20T02:24:00+00:00",
@@ -1735,9 +1735,9 @@
   "observed_c": -11.689,
   "residual": 5.044,
   "zscore": 1.33,
-  "cusum": 6.817,
+  "cusum": 1.049,
   "flagged": false,
-  "severity": 0.341
+  "severity": 0.158
  },
  {
   "t": "2026-08-20T02:25:00+00:00",
@@ -1747,9 +1747,9 @@
   "observed_c": -11.406,
   "residual": 5.599,
   "zscore": 1.795,
-  "cusum": 8.053,
+  "cusum": 2.285,
   "flagged": false,
-  "severity": 0.403
+  "severity": 0.214
  },
  {
   "t": "2026-08-20T02:26:00+00:00",
@@ -1759,9 +1759,9 @@
   "observed_c": -11.545,
   "residual": 5.717,
   "zscore": 1.79,
-  "cusum": 9.29,
+  "cusum": 3.523,
   "flagged": false,
-  "severity": 0.465
+  "severity": 0.32
  },
  {
   "t": "2026-08-20T02:27:00+00:00",
@@ -1771,9 +1771,9 @@
   "observed_c": -11.792,
   "residual": 5.712,
   "zscore": 1.642,
-  "cusum": 10.425,
-  "flagged": true,
-  "severity": 0.521
+  "cusum": 4.658,
+  "flagged": false,
+  "severity": 0.423
  },
  {
   "t": "2026-08-20T02:28:00+00:00",
@@ -1783,9 +1783,9 @@
   "observed_c": -12.217,
   "residual": 5.516,
   "zscore": 1.365,
-  "cusum": 0.817,
+  "cusum": 5.474,
   "flagged": false,
-  "severity": 0.195
+  "severity": 0.498
  },
  {
   "t": "2026-08-20T02:29:00+00:00",
@@ -1795,9 +1795,9 @@
   "observed_c": -12.028,
   "residual": 5.92,
   "zscore": 1.662,
-  "cusum": 1.95,
-  "flagged": false,
-  "severity": 0.237
+  "cusum": 6.608,
+  "flagged": true,
+  "severity": 0.601
  },
  {
   "t": "2026-08-20T02:30:00+00:00",
@@ -1807,9 +1807,9 @@
   "observed_c": -12.351,
   "residual": 5.8,
   "zscore": 1.466,
-  "cusum": 2.837,
+  "cusum": 0.886,
   "flagged": false,
-  "severity": 0.209
+  "severity": 0.175
  },
  {
   "t": "2026-08-20T02:31:00+00:00",
@@ -1819,9 +1819,9 @@
   "observed_c": -12.825,
   "residual": 5.517,
   "zscore": 1.111,
-  "cusum": 3.325,
+  "cusum": 1.375,
   "flagged": false,
-  "severity": 0.166
+  "severity": 0.132
  },
  {
   "t": "2026-08-20T02:32:00+00:00",
@@ -1831,9 +1831,9 @@
   "observed_c": -11.985,
   "residual": 6.538,
   "zscore": 2.114,
-  "cusum": 4.748,
+  "cusum": 2.798,
   "flagged": false,
-  "severity": 0.302
+  "severity": 0.254
  },
  {
   "t": "2026-08-20T02:33:00+00:00",
@@ -1843,9 +1843,9 @@
   "observed_c": -12.905,
   "residual": 5.788,
   "zscore": 1.173,
-  "cusum": 5.309,
+  "cusum": 3.358,
   "flagged": false,
-  "severity": 0.265
+  "severity": 0.305
  },
  {
   "t": "2026-08-20T02:34:00+00:00",
@@ -1855,9 +1855,9 @@
   "observed_c": -13.417,
   "residual": 5.436,
   "zscore": 0.742,
-  "cusum": 5.43,
+  "cusum": 3.479,
   "flagged": false,
-  "severity": 0.271
+  "severity": 0.316
  },
  {
   "t": "2026-08-20T02:35:00+00:00",
@@ -1867,9 +1867,9 @@
   "observed_c": -13.451,
   "residual": 5.554,
   "zscore": 0.817,
-  "cusum": 5.59,
+  "cusum": 3.64,
   "flagged": false,
-  "severity": 0.279
+  "severity": 0.331
  },
  {
   "t": "2026-08-20T02:36:00+00:00",
@@ -1879,9 +1879,9 @@
   "observed_c": -13.686,
   "residual": 5.461,
   "zscore": 0.662,
-  "cusum": 5.575,
+  "cusum": 3.625,
   "flagged": false,
-  "severity": 0.279
+  "severity": 0.33
  },
  {
   "t": "2026-08-20T02:37:00+00:00",
@@ -1891,9 +1891,9 @@
   "observed_c": -13.818,
   "residual": 5.464,
   "zscore": 0.615,
-  "cusum": 5.488,
+  "cusum": 3.538,
   "flagged": false,
-  "severity": 0.274
+  "severity": 0.322
  },
  {
   "t": "2026-08-20T02:38:00+00:00",
@@ -1903,9 +1903,9 @@
   "observed_c": -14.935,
   "residual": 4.473,
   "zscore": -0.69,
-  "cusum": 4.343,
+  "cusum": 2.393,
   "flagged": false,
-  "severity": 0.217
+  "severity": 0.218
  },
  {
   "t": "2026-08-20T02:39:00+00:00",
@@ -1915,9 +1915,9 @@
   "observed_c": -14.329,
   "residual": 5.199,
   "zscore": 0.194,
-  "cusum": 3.885,
+  "cusum": 1.935,
   "flagged": false,
-  "severity": 0.194
+  "severity": 0.176
  },
  {
   "t": "2026-08-20T02:40:00+00:00",
@@ -1927,9 +1927,9 @@
   "observed_c": -13.977,
   "residual": 5.664,
   "zscore": 0.815,
-  "cusum": 3.839,
+  "cusum": 1.889,
   "flagged": false,
-  "severity": 0.192
+  "severity": 0.172
  },
  {
   "t": "2026-08-20T02:41:00+00:00",
@@ -1939,9 +1939,9 @@
   "observed_c": -14.903,
   "residual": 4.844,
   "zscore": -0.511,
-  "cusum": 2.911,
+  "cusum": 0.961,
   "flagged": false,
-  "severity": 0.146
+  "severity": 0.087
  },
  {
   "t": "2026-08-20T02:42:00+00:00",
@@ -1951,9 +1951,9 @@
   "observed_c": -14.671,
   "residual": 5.176,
   "zscore": -0.055,
-  "cusum": 2.279,
+  "cusum": 0.328,
   "flagged": false,
-  "severity": 0.114
+  "severity": 0.03
  },
  {
   "t": "2026-08-20T02:43:00+00:00",
@@ -1963,9 +1963,9 @@
   "observed_c": -14.362,
   "residual": 5.476,
   "zscore": 0.42,
-  "cusum": 1.912,
+  "cusum": 0.0,
   "flagged": false,
-  "severity": 0.096
+  "severity": 0.05
  },
  {
   "t": "2026-08-20T02:44:00+00:00",
@@ -1975,9 +1975,9 @@
   "observed_c": -14.268,
   "residual": 5.376,
   "zscore": 0.176,
-  "cusum": 1.405,
+  "cusum": 0.0,
   "flagged": false,
-  "severity": 0.07
+  "severity": 0.021
  },
  {
   "t": "2026-08-20T02:45:00+00:00",
@@ -1987,9 +1987,9 @@
   "observed_c": -13.75,
   "residual": 5.527,
   "zscore": 0.436,
-  "cusum": 1.032,
+  "cusum": 0.0,
   "flagged": false,
-  "severity": 0.062
+  "severity": 0.052
  },
  {
   "t": "2026-08-20T02:46:00+00:00",
@@ -2001,7 +2001,7 @@
   "zscore": -2.01,
   "cusum": -0.398,
   "flagged": false,
-  "severity": 0.287
+  "severity": 0.239
  },
  {
   "t": "2026-08-20T02:47:00+00:00",
@@ -2013,7 +2013,7 @@
   "zscore": -1.208,
   "cusum": -0.397,
   "flagged": false,
-  "severity": 0.173
+  "severity": 0.144
  },
  {
   "t": "2026-08-20T02:48:00+00:00",
@@ -2025,7 +2025,7 @@
   "zscore": -1.39,
   "cusum": -0.468,
   "flagged": false,
-  "severity": 0.199
+  "severity": 0.165
  },
  {
   "t": "2026-08-20T02:49:00+00:00",
@@ -2037,7 +2037,7 @@
   "zscore": -0.81,
   "cusum": -0.262,
   "flagged": false,
-  "severity": 0.116
+  "severity": 0.096
  },
  {
   "t": "2026-08-20T02:50:00+00:00",
@@ -2049,7 +2049,7 @@
   "zscore": -0.562,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.08
+  "severity": 0.067
  },
  {
   "t": "2026-08-20T02:51:00+00:00",
@@ -2061,7 +2061,7 @@
   "zscore": -3.383,
   "cusum": -1.047,
   "flagged": false,
-  "severity": 0.483
+  "severity": 0.403
  },
  {
   "t": "2026-08-20T02:52:00+00:00",
@@ -2073,7 +2073,7 @@
   "zscore": -0.543,
   "cusum": -0.757,
   "flagged": false,
-  "severity": 0.078
+  "severity": 0.069
  },
  {
   "t": "2026-08-20T02:53:00+00:00",
@@ -2085,7 +2085,7 @@
   "zscore": -2.12,
   "cusum": -1.345,
   "flagged": false,
-  "severity": 0.303
+  "severity": 0.252
  },
  {
   "t": "2026-08-20T02:54:00+00:00",
@@ -2109,7 +2109,7 @@
   "zscore": -2.029,
   "cusum": -1.779,
   "flagged": false,
-  "severity": 0.29
+  "severity": 0.242
  },
  {
   "t": "2026-08-20T02:56:00+00:00",
@@ -2121,7 +2121,7 @@
   "zscore": -0.872,
   "cusum": -1.72,
   "flagged": false,
-  "severity": 0.125
+  "severity": 0.156
  },
  {
   "t": "2026-08-20T02:57:00+00:00",
@@ -2133,7 +2133,7 @@
   "zscore": -0.194,
   "cusum": -1.24,
   "flagged": false,
-  "severity": 0.062
+  "severity": 0.113
  },
  {
   "t": "2026-08-20T02:58:00+00:00",
@@ -2145,7 +2145,7 @@
   "zscore": -0.863,
   "cusum": -1.168,
   "flagged": false,
-  "severity": 0.123
+  "severity": 0.106
  },
  {
   "t": "2026-08-20T02:59:00+00:00",
@@ -2157,6 +2157,6 @@
   "zscore": -0.529,
   "cusum": -0.893,
   "flagged": false,
-  "severity": 0.076
+  "severity": 0.081
  }
 ]

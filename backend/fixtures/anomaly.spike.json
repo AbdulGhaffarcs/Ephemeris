@@ -9,7 +9,7 @@
   "zscore": 0.041,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.006
+  "severity": 0.005
  },
  {
   "t": "2026-08-20T00:01:00+00:00",
@@ -21,7 +21,7 @@
   "zscore": 0.392,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.056
+  "severity": 0.047
  },
  {
   "t": "2026-08-20T00:02:00+00:00",
@@ -33,7 +33,7 @@
   "zscore": 0.054,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.008
+  "severity": 0.006
  },
  {
   "t": "2026-08-20T00:03:00+00:00",
@@ -45,7 +45,7 @@
   "zscore": 0.444,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.063
+  "severity": 0.053
  },
  {
   "t": "2026-08-20T00:04:00+00:00",
@@ -57,7 +57,7 @@
   "zscore": -0.127,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.018
+  "severity": 0.015
  },
  {
   "t": "2026-08-20T00:05:00+00:00",
@@ -69,7 +69,7 @@
   "zscore": 1.262,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.18
+  "severity": 0.15
  },
  {
   "t": "2026-08-20T00:06:00+00:00",
@@ -81,7 +81,7 @@
   "zscore": 3.232,
   "cusum": 0.208,
   "flagged": false,
-  "severity": 0.462
+  "severity": 0.385
  },
  {
   "t": "2026-08-20T00:07:00+00:00",
@@ -93,7 +93,7 @@
   "zscore": 1.626,
   "cusum": 0.134,
   "flagged": false,
-  "severity": 0.232
+  "severity": 0.194
  },
  {
   "t": "2026-08-20T00:08:00+00:00",
@@ -105,7 +105,7 @@
   "zscore": 2.113,
   "cusum": 0.27,
   "flagged": false,
-  "severity": 0.302
+  "severity": 0.252
  },
  {
   "t": "2026-08-20T00:09:00+00:00",
@@ -117,7 +117,7 @@
   "zscore": 1.082,
   "cusum": 0.105,
   "flagged": false,
-  "severity": 0.155
+  "severity": 0.129
  },
  {
   "t": "2026-08-20T00:10:00+00:00",
@@ -129,7 +129,7 @@
   "zscore": 1.214,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.173
+  "severity": 0.145
  },
  {
   "t": "2026-08-20T00:11:00+00:00",
@@ -141,7 +141,7 @@
   "zscore": 0.999,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.143
+  "severity": 0.119
  },
  {
   "t": "2026-08-20T00:12:00+00:00",
@@ -153,7 +153,7 @@
   "zscore": -0.593,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.085
+  "severity": 0.071
  },
  {
   "t": "2026-08-20T00:13:00+00:00",
@@ -165,7 +165,7 @@
   "zscore": 1.721,
   "cusum": 0.084,
   "flagged": false,
-  "severity": 0.246
+  "severity": 0.205
  },
  {
   "t": "2026-08-20T00:14:00+00:00",
@@ -177,7 +177,7 @@
   "zscore": 1.26,
   "cusum": 0.014,
   "flagged": false,
-  "severity": 0.18
+  "severity": 0.15
  },
  {
   "t": "2026-08-20T00:15:00+00:00",
@@ -189,7 +189,7 @@
   "zscore": 1.185,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.169
+  "severity": 0.141
  },
  {
   "t": "2026-08-20T00:16:00+00:00",
@@ -201,7 +201,7 @@
   "zscore": -0.651,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.093
+  "severity": 0.077
  },
  {
   "t": "2026-08-20T00:17:00+00:00",
@@ -213,7 +213,7 @@
   "zscore": -0.65,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.093
+  "severity": 0.077
  },
  {
   "t": "2026-08-20T00:18:00+00:00",
@@ -225,7 +225,7 @@
   "zscore": 0.109,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.016
+  "severity": 0.013
  },
  {
   "t": "2026-08-20T00:19:00+00:00",
@@ -237,7 +237,7 @@
   "zscore": 0.485,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.069
+  "severity": 0.058
  },
  {
   "t": "2026-08-20T00:20:00+00:00",
@@ -249,7 +249,7 @@
   "zscore": 1.173,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.168
+  "severity": 0.14
  },
  {
   "t": "2026-08-20T00:21:00+00:00",
@@ -261,7 +261,7 @@
   "zscore": 0.832,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.119
+  "severity": 0.099
  },
  {
   "t": "2026-08-20T00:22:00+00:00",
@@ -273,7 +273,7 @@
   "zscore": 1.338,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.191
+  "severity": 0.159
  },
  {
   "t": "2026-08-20T00:23:00+00:00",
@@ -285,7 +285,7 @@
   "zscore": 0.303,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.043
+  "severity": 0.036
  },
  {
   "t": "2026-08-20T00:24:00+00:00",
@@ -297,7 +297,7 @@
   "zscore": 1.174,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.168
+  "severity": 0.14
  },
  {
   "t": "2026-08-20T00:25:00+00:00",
@@ -309,7 +309,7 @@
   "zscore": 1.217,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.174
+  "severity": 0.145
  },
  {
   "t": "2026-08-20T00:26:00+00:00",
@@ -321,7 +321,7 @@
   "zscore": 0.252,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.036
+  "severity": 0.03
  },
  {
   "t": "2026-08-20T00:27:00+00:00",
@@ -333,7 +333,7 @@
   "zscore": 2.359,
   "cusum": 0.332,
   "flagged": false,
-  "severity": 0.337
+  "severity": 0.281
  },
  {
   "t": "2026-08-20T00:28:00+00:00",
@@ -345,7 +345,7 @@
   "zscore": 1.165,
   "cusum": 0.228,
   "flagged": false,
-  "severity": 0.166
+  "severity": 0.139
  },
  {
   "t": "2026-08-20T00:29:00+00:00",
@@ -357,7 +357,7 @@
   "zscore": 1.652,
   "cusum": 0.334,
   "flagged": false,
-  "severity": 0.236
+  "severity": 0.197
  },
  {
   "t": "2026-08-20T00:30:00+00:00",
@@ -369,7 +369,7 @@
   "zscore": 0.124,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.018
+  "severity": 0.015
  },
  {
   "t": "2026-08-20T00:31:00+00:00",
@@ -381,7 +381,7 @@
   "zscore": -0.018,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.003
+  "severity": 0.002
  },
  {
   "t": "2026-08-20T00:32:00+00:00",
@@ -393,7 +393,7 @@
   "zscore": 0.341,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.049
+  "severity": 0.041
  },
  {
   "t": "2026-08-20T00:33:00+00:00",
@@ -405,7 +405,7 @@
   "zscore": 0.581,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.083
+  "severity": 0.069
  },
  {
   "t": "2026-08-20T00:34:00+00:00",
@@ -417,7 +417,7 @@
   "zscore": 1.379,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.197
+  "severity": 0.164
  },
  {
   "t": "2026-08-20T00:35:00+00:00",
@@ -429,7 +429,7 @@
   "zscore": 1.061,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.152
+  "severity": 0.126
  },
  {
   "t": "2026-08-20T00:36:00+00:00",
@@ -441,7 +441,7 @@
   "zscore": 0.363,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.052
+  "severity": 0.043
  },
  {
   "t": "2026-08-20T00:37:00+00:00",
@@ -453,7 +453,7 @@
   "zscore": -0.055,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.008
+  "severity": 0.007
  },
  {
   "t": "2026-08-20T00:38:00+00:00",
@@ -465,7 +465,7 @@
   "zscore": 0.62,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.089
+  "severity": 0.074
  },
  {
   "t": "2026-08-20T00:39:00+00:00",
@@ -477,7 +477,7 @@
   "zscore": 2.805,
   "cusum": 0.261,
   "flagged": false,
-  "severity": 0.401
+  "severity": 0.334
  },
  {
   "t": "2026-08-20T00:40:00+00:00",
@@ -489,7 +489,7 @@
   "zscore": 0.545,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.078
+  "severity": 0.065
  },
  {
   "t": "2026-08-20T00:41:00+00:00",
@@ -501,7 +501,7 @@
   "zscore": 1.804,
   "cusum": 0.02,
   "flagged": false,
-  "severity": 0.258
+  "severity": 0.215
  },
  {
   "t": "2026-08-20T00:42:00+00:00",
@@ -513,7 +513,7 @@
   "zscore": 2.033,
   "cusum": 0.151,
   "flagged": false,
-  "severity": 0.29
+  "severity": 0.242
  },
  {
   "t": "2026-08-20T00:43:00+00:00",
@@ -525,7 +525,7 @@
   "zscore": 0.24,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.034
+  "severity": 0.029
  },
  {
   "t": "2026-08-20T00:44:00+00:00",
@@ -537,7 +537,7 @@
   "zscore": 1.965,
   "cusum": 0.096,
   "flagged": false,
-  "severity": 0.281
+  "severity": 0.234
  },
  {
   "t": "2026-08-20T00:45:00+00:00",
@@ -549,7 +549,7 @@
   "zscore": 3.149,
   "cusum": 0.679,
   "flagged": false,
-  "severity": 0.45
+  "severity": 0.375
  },
  {
   "t": "2026-08-20T00:46:00+00:00",
@@ -561,7 +561,7 @@
   "zscore": 0.108,
   "cusum": 0.125,
   "flagged": false,
-  "severity": 0.015
+  "severity": 0.013
  },
  {
   "t": "2026-08-20T00:47:00+00:00",
@@ -573,7 +573,7 @@
   "zscore": 1.656,
   "cusum": 0.194,
   "flagged": false,
-  "severity": 0.237
+  "severity": 0.197
  },
  {
   "t": "2026-08-20T00:48:00+00:00",
@@ -585,7 +585,7 @@
   "zscore": 1.919,
   "cusum": 0.339,
   "flagged": false,
-  "severity": 0.274
+  "severity": 0.228
  },
  {
   "t": "2026-08-20T00:49:00+00:00",
@@ -597,7 +597,7 @@
   "zscore": 1.257,
   "cusum": 0.233,
   "flagged": false,
-  "severity": 0.18
+  "severity": 0.15
  },
  {
   "t": "2026-08-20T00:50:00+00:00",
@@ -609,7 +609,7 @@
   "zscore": 2.435,
   "cusum": 0.588,
   "flagged": false,
-  "severity": 0.348
+  "severity": 0.29
  },
  {
   "t": "2026-08-20T00:51:00+00:00",
@@ -621,7 +621,7 @@
   "zscore": 1.746,
   "cusum": 0.73,
   "flagged": false,
-  "severity": 0.249
+  "severity": 0.208
  },
  {
   "t": "2026-08-20T00:52:00+00:00",
@@ -633,7 +633,7 @@
   "zscore": 0.512,
   "cusum": 0.354,
   "flagged": false,
-  "severity": 0.073
+  "severity": 0.061
  },
  {
   "t": "2026-08-20T00:53:00+00:00",
@@ -645,7 +645,7 @@
   "zscore": 2.307,
   "cusum": 0.765,
   "flagged": false,
-  "severity": 0.33
+  "severity": 0.275
  },
  {
   "t": "2026-08-20T00:54:00+00:00",
@@ -657,7 +657,7 @@
   "zscore": 1.936,
   "cusum": 1.052,
   "flagged": false,
-  "severity": 0.277
+  "severity": 0.231
  },
  {
   "t": "2026-08-20T00:55:00+00:00",
@@ -669,7 +669,7 @@
   "zscore": 1.906,
   "cusum": 1.367,
   "flagged": false,
-  "severity": 0.272
+  "severity": 0.227
  },
  {
   "t": "2026-08-20T00:56:00+00:00",
@@ -681,7 +681,7 @@
   "zscore": 2.001,
   "cusum": 1.774,
   "flagged": false,
-  "severity": 0.286
+  "severity": 0.238
  },
  {
   "t": "2026-08-20T00:57:00+00:00",
@@ -693,7 +693,7 @@
   "zscore": 1.007,
   "cusum": 1.693,
   "flagged": false,
-  "severity": 0.144
+  "severity": 0.154
  },
  {
   "t": "2026-08-20T00:58:00+00:00",
@@ -705,7 +705,7 @@
   "zscore": 0.673,
   "cusum": 1.445,
   "flagged": false,
-  "severity": 0.096
+  "severity": 0.131
  },
  {
   "t": "2026-08-20T00:59:00+00:00",
@@ -717,7 +717,7 @@
   "zscore": -0.469,
   "cusum": 0.6,
   "flagged": false,
-  "severity": 0.067
+  "severity": 0.056
  },
  {
   "t": "2026-08-20T01:00:00+00:00",
@@ -729,7 +729,7 @@
   "zscore": 0.65,
   "cusum": 0.34,
   "flagged": false,
-  "severity": 0.093
+  "severity": 0.077
  },
  {
   "t": "2026-08-20T01:01:00+00:00",
@@ -741,7 +741,7 @@
   "zscore": -0.445,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.064
+  "severity": 0.053
  },
  {
   "t": "2026-08-20T01:02:00+00:00",
@@ -753,7 +753,7 @@
   "zscore": -0.615,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.088
+  "severity": 0.073
  },
  {
   "t": "2026-08-20T01:03:00+00:00",
@@ -765,7 +765,7 @@
   "zscore": -1.521,
   "cusum": -0.105,
   "flagged": false,
-  "severity": 0.217
+  "severity": 0.181
  },
  {
   "t": "2026-08-20T01:04:00+00:00",
@@ -777,7 +777,7 @@
   "zscore": -1.535,
   "cusum": -0.22,
   "flagged": false,
-  "severity": 0.219
+  "severity": 0.183
  },
  {
   "t": "2026-08-20T01:05:00+00:00",
@@ -789,7 +789,7 @@
   "zscore": -1.397,
   "cusum": -0.291,
   "flagged": false,
-  "severity": 0.2
+  "severity": 0.166
  },
  {
   "t": "2026-08-20T01:06:00+00:00",
@@ -801,7 +801,7 @@
   "zscore": -0.302,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.043
+  "severity": 0.036
  },
  {
   "t": "2026-08-20T01:07:00+00:00",
@@ -813,7 +813,7 @@
   "zscore": -3.04,
   "cusum": -0.847,
   "flagged": false,
-  "severity": 0.434
+  "severity": 0.362
  },
  {
   "t": "2026-08-20T01:08:00+00:00",
@@ -825,7 +825,7 @@
   "zscore": -2.554,
   "cusum": -1.59,
   "flagged": false,
-  "severity": 0.365
+  "severity": 0.304
  },
  {
   "t": "2026-08-20T01:09:00+00:00",
@@ -837,7 +837,7 @@
   "zscore": -1.467,
   "cusum": -1.829,
   "flagged": false,
-  "severity": 0.21
+  "severity": 0.175
  },
  {
   "t": "2026-08-20T01:10:00+00:00",
@@ -849,7 +849,7 @@
   "zscore": -0.849,
   "cusum": -1.73,
   "flagged": false,
-  "severity": 0.121
+  "severity": 0.157
  },
  {
   "t": "2026-08-20T01:11:00+00:00",
@@ -861,7 +861,7 @@
   "zscore": -1.567,
   "cusum": -2.058,
   "flagged": false,
-  "severity": 0.224
+  "severity": 0.187
  },
  {
   "t": "2026-08-20T01:12:00+00:00",
@@ -873,7 +873,7 @@
   "zscore": -3.082,
   "cusum": -3.353,
   "flagged": false,
-  "severity": 0.44
+  "severity": 0.367
  },
  {
   "t": "2026-08-20T01:13:00+00:00",
@@ -885,7 +885,7 @@
   "zscore": -3.103,
   "cusum": -4.929,
   "flagged": false,
-  "severity": 0.443
+  "severity": 0.448
  },
  {
   "t": "2026-08-20T01:14:00+00:00",
@@ -897,7 +897,7 @@
   "zscore": -1.549,
   "cusum": -5.57,
   "flagged": false,
-  "severity": 0.278
+  "severity": 0.506
  },
  {
   "t": "2026-08-20T01:15:00+00:00",
@@ -907,9 +907,9 @@
   "observed_c": -17.268,
   "residual": -0.1,
   "zscore": -2.053,
-  "cusum": -6.671,
+  "cusum": -1.102,
   "flagged": false,
-  "severity": 0.334
+  "severity": 0.244
  },
  {
   "t": "2026-08-20T01:16:00+00:00",
@@ -919,9 +919,9 @@
   "observed_c": -16.624,
   "residual": -0.357,
   "zscore": -2.162,
-  "cusum": -7.943,
+  "cusum": -2.374,
   "flagged": false,
-  "severity": 0.397
+  "severity": 0.257
  },
  {
   "t": "2026-08-20T01:17:00+00:00",
@@ -931,9 +931,9 @@
   "observed_c": -14.991,
   "residual": 0.259,
   "zscore": -1.29,
-  "cusum": -8.541,
+  "cusum": -2.971,
   "flagged": false,
-  "severity": 0.427
+  "severity": 0.27
  },
  {
   "t": "2026-08-20T01:18:00+00:00",
@@ -943,9 +943,9 @@
   "observed_c": -13.936,
   "residual": 0.196,
   "zscore": -1.269,
-  "cusum": -9.142,
+  "cusum": -3.572,
   "flagged": false,
-  "severity": 0.457
+  "severity": 0.325
  },
  {
   "t": "2026-08-20T01:19:00+00:00",
@@ -955,9 +955,9 @@
   "observed_c": -13.156,
   "residual": -0.231,
   "zscore": -1.63,
-  "cusum": -10.104,
-  "flagged": true,
-  "severity": 0.505
+  "cusum": -4.534,
+  "flagged": false,
+  "severity": 0.412
  },
  {
   "t": "2026-08-20T01:20:00+00:00",
@@ -967,9 +967,9 @@
   "observed_c": -11.926,
   "residual": -0.285,
   "zscore": -1.558,
-  "cusum": -0.943,
+  "cusum": -5.477,
   "flagged": false,
-  "severity": 0.223
+  "severity": 0.498
  },
  {
   "t": "2026-08-20T01:21:00+00:00",
@@ -993,7 +993,7 @@
   "zscore": 5.081,
   "cusum": 11.908,
   "flagged": true,
-  "severity": 0.726
+  "severity": 1.0
  },
  {
   "t": "2026-08-20T01:23:00+00:00",
@@ -1005,7 +1005,7 @@
   "zscore": 3.515,
   "cusum": 11.113,
   "flagged": true,
-  "severity": 0.556
+  "severity": 1.0
  },
  {
   "t": "2026-08-20T01:24:00+00:00",
@@ -1017,7 +1017,7 @@
   "zscore": 2.861,
   "cusum": 10.676,
   "flagged": true,
-  "severity": 0.534
+  "severity": 0.971
  },
  {
   "t": "2026-08-20T01:25:00+00:00",
@@ -1029,7 +1029,7 @@
   "zscore": -0.7,
   "cusum": -2.502,
   "flagged": false,
-  "severity": 0.125
+  "severity": 0.227
  },
  {
   "t": "2026-08-20T01:26:00+00:00",
@@ -1041,7 +1041,7 @@
   "zscore": -0.84,
   "cusum": -5.653,
   "flagged": false,
-  "severity": 0.283
+  "severity": 0.514
  },
  {
   "t": "2026-08-20T01:27:00+00:00",
@@ -1051,9 +1051,9 @@
   "observed_c": -1.696,
   "residual": -0.157,
   "zscore": -0.58,
-  "cusum": -7.671,
+  "cusum": -2.018,
   "flagged": false,
-  "severity": 0.384
+  "severity": 0.183
  },
  {
   "t": "2026-08-20T01:28:00+00:00",
@@ -1063,9 +1063,9 @@
   "observed_c": -0.337,
   "residual": -0.257,
   "zscore": -0.581,
-  "cusum": -9.707,
+  "cusum": -4.055,
   "flagged": false,
-  "severity": 0.485
+  "severity": 0.369
  },
  {
   "t": "2026-08-20T01:29:00+00:00",
@@ -1075,9 +1075,9 @@
   "observed_c": 0.967,
   "residual": -0.382,
   "zscore": -0.587,
-  "cusum": -11.788,
-  "flagged": true,
-  "severity": 0.589
+  "cusum": -6.135,
+  "flagged": false,
+  "severity": 0.558
  },
  {
   "t": "2026-08-20T01:30:00+00:00",
@@ -1089,7 +1089,7 @@
   "zscore": -0.754,
   "cusum": -2.859,
   "flagged": false,
-  "severity": 0.143
+  "severity": 0.26
  },
  {
   "t": "2026-08-20T01:31:00+00:00",
@@ -1101,7 +1101,7 @@
   "zscore": -0.613,
   "cusum": -5.096,
   "flagged": false,
-  "severity": 0.255
+  "severity": 0.463
  },
  {
   "t": "2026-08-20T01:32:00+00:00",
@@ -1113,7 +1113,7 @@
   "zscore": -0.472,
   "cusum": -6.693,
   "flagged": false,
-  "severity": 0.335
+  "severity": 0.608
  },
  {
   "t": "2026-08-20T01:33:00+00:00",
@@ -1123,9 +1123,9 @@
   "observed_c": 5.529,
   "residual": -1.037,
   "zscore": -0.646,
-  "cusum": -9.112,
+  "cusum": -2.419,
   "flagged": false,
-  "severity": 0.456
+  "severity": 0.22
  },
  {
   "t": "2026-08-20T01:34:00+00:00",
@@ -1135,9 +1135,9 @@
   "observed_c": 7.282,
   "residual": -0.417,
   "zscore": -0.494,
-  "cusum": -10.836,
-  "flagged": true,
-  "severity": 0.542
+  "cusum": -4.143,
+  "flagged": false,
+  "severity": 0.377
  },
  {
   "t": "2026-08-20T01:35:00+00:00",
@@ -1147,9 +1147,9 @@
   "observed_c": 8.804,
   "residual": 0.059,
   "zscore": -0.38,
-  "cusum": -1.195,
+  "cusum": -5.338,
   "flagged": false,
-  "severity": 0.06
+  "severity": 0.485
  },
  {
   "t": "2026-08-20T01:36:00+00:00",
@@ -1159,9 +1159,9 @@
   "observed_c": 8.995,
   "residual": -0.704,
   "zscore": -0.532,
-  "cusum": -3.113,
+  "cusum": -7.256,
   "flagged": false,
-  "severity": 0.156
+  "severity": 0.66
  },
  {
   "t": "2026-08-20T01:37:00+00:00",
@@ -1171,9 +1171,9 @@
   "observed_c": 10.924,
   "residual": 0.372,
   "zscore": -0.286,
-  "cusum": -3.875,
+  "cusum": -0.761,
   "flagged": false,
-  "severity": 0.194
+  "severity": 0.069
  },
  {
   "t": "2026-08-20T01:38:00+00:00",
@@ -1183,9 +1183,9 @@
   "observed_c": 11.352,
   "residual": 0.054,
   "zscore": -0.353,
-  "cusum": -4.951,
+  "cusum": -1.838,
   "flagged": false,
-  "severity": 0.248
+  "severity": 0.167
  },
  {
   "t": "2026-08-20T01:39:00+00:00",
@@ -1195,9 +1195,9 @@
   "observed_c": 11.789,
   "residual": -0.144,
   "zscore": -0.391,
-  "cusum": -6.21,
+  "cusum": -3.096,
   "flagged": false,
-  "severity": 0.31
+  "severity": 0.281
  },
  {
   "t": "2026-08-20T01:40:00+00:00",
@@ -1207,9 +1207,9 @@
   "observed_c": 12.518,
   "residual": 0.069,
   "zscore": -0.337,
-  "cusum": -7.217,
+  "cusum": -4.103,
   "flagged": false,
-  "severity": 0.361
+  "severity": 0.373
  },
  {
   "t": "2026-08-20T01:41:00+00:00",
@@ -1219,9 +1219,9 @@
   "observed_c": 13.069,
   "residual": 0.224,
   "zscore": -0.295,
-  "cusum": -8.027,
+  "cusum": -4.914,
   "flagged": false,
-  "severity": 0.401
+  "severity": 0.447
  },
  {
   "t": "2026-08-20T01:42:00+00:00",
@@ -1231,9 +1231,9 @@
   "observed_c": 13.192,
   "residual": 0.078,
   "zscore": -0.321,
-  "cusum": -8.961,
+  "cusum": -5.848,
   "flagged": false,
-  "severity": 0.448
+  "severity": 0.532
  },
  {
   "t": "2026-08-20T01:43:00+00:00",
@@ -1243,9 +1243,9 @@
   "observed_c": 13.726,
   "residual": 0.471,
   "zscore": -0.24,
-  "cusum": -9.508,
+  "cusum": -0.547,
   "flagged": false,
-  "severity": 0.475
+  "severity": 0.05
  },
  {
   "t": "2026-08-20T01:44:00+00:00",
@@ -1255,9 +1255,9 @@
   "observed_c": 13.133,
   "residual": -0.132,
   "zscore": -0.374,
-  "cusum": -10.69,
-  "flagged": true,
-  "severity": 0.534
+  "cusum": -1.729,
+  "flagged": false,
+  "severity": 0.157
  },
  {
   "t": "2026-08-20T01:45:00+00:00",
@@ -1267,9 +1267,9 @@
   "observed_c": 13.124,
   "residual": -0.019,
   "zscore": -0.346,
-  "cusum": -1.05,
+  "cusum": -2.779,
   "flagged": false,
-  "severity": 0.053
+  "severity": 0.253
  },
  {
   "t": "2026-08-20T01:46:00+00:00",
@@ -1279,9 +1279,9 @@
   "observed_c": 13.4,
   "residual": 0.513,
   "zscore": -0.235,
-  "cusum": -1.571,
+  "cusum": -3.3,
   "flagged": false,
-  "severity": 0.079
+  "severity": 0.3
  },
  {
   "t": "2026-08-20T01:47:00+00:00",
@@ -1291,9 +1291,9 @@
   "observed_c": 12.676,
   "residual": 0.179,
   "zscore": -0.312,
-  "cusum": -2.455,
+  "cusum": -4.184,
   "flagged": false,
-  "severity": 0.123
+  "severity": 0.38
  },
  {
   "t": "2026-08-20T01:48:00+00:00",
@@ -1303,9 +1303,9 @@
   "observed_c": 11.853,
   "residual": -0.121,
   "zscore": -0.374,
-  "cusum": -3.637,
+  "cusum": -5.366,
   "flagged": false,
-  "severity": 0.182
+  "severity": 0.488
  },
  {
   "t": "2026-08-20T01:49:00+00:00",
@@ -1315,9 +1315,9 @@
   "observed_c": 11.854,
   "residual": 0.535,
   "zscore": -0.234,
-  "cusum": -4.152,
+  "cusum": -5.881,
   "flagged": false,
-  "severity": 0.208
+  "severity": 0.535
  },
  {
   "t": "2026-08-20T01:50:00+00:00",
@@ -1327,9 +1327,9 @@
   "observed_c": 11.266,
   "residual": 0.733,
   "zscore": -0.198,
-  "cusum": -4.494,
+  "cusum": -0.342,
   "flagged": false,
-  "severity": 0.225
+  "severity": 0.031
  },
  {
   "t": "2026-08-20T01:51:00+00:00",
@@ -1339,9 +1339,9 @@
   "observed_c": 9.701,
   "residual": 0.082,
   "zscore": -0.343,
-  "cusum": -5.521,
+  "cusum": -1.37,
   "flagged": false,
-  "severity": 0.276
+  "severity": 0.125
  },
  {
   "t": "2026-08-20T01:52:00+00:00",
@@ -1351,9 +1351,9 @@
   "observed_c": 8.355,
   "residual": -0.225,
   "zscore": -0.352,
-  "cusum": -6.401,
+  "cusum": -2.25,
   "flagged": false,
-  "severity": 0.32
+  "severity": 0.205
  },
  {
   "t": "2026-08-20T01:53:00+00:00",
@@ -1363,9 +1363,9 @@
   "observed_c": 7.654,
   "residual": 0.234,
   "zscore": -0.157,
-  "cusum": -6.347,
+  "cusum": -2.195,
   "flagged": false,
-  "severity": 0.317
+  "severity": 0.2
  },
  {
   "t": "2026-08-20T01:54:00+00:00",
@@ -1375,9 +1375,9 @@
   "observed_c": 6.399,
   "residual": 0.255,
   "zscore": -0.03,
-  "cusum": -5.823,
+  "cusum": -1.671,
   "flagged": false,
-  "severity": 0.291
+  "severity": 0.152
  },
  {
   "t": "2026-08-20T01:55:00+00:00",
@@ -1387,9 +1387,9 @@
   "observed_c": 4.991,
   "residual": 0.236,
   "zscore": 0.728,
-  "cusum": -4.873,
+  "cusum": -0.721,
   "flagged": false,
-  "severity": 0.244
+  "severity": 0.087
  },
  {
   "t": "2026-08-20T01:56:00+00:00",
@@ -1399,9 +1399,9 @@
   "observed_c": 4.132,
   "residual": 0.871,
   "zscore": 2.001,
-  "cusum": -3.31,
+  "cusum": 0.363,
   "flagged": false,
-  "severity": 0.286
+  "severity": 0.238
  },
  {
   "t": "2026-08-20T01:57:00+00:00",
@@ -1411,9 +1411,9 @@
   "observed_c": 1.897,
   "residual": 0.051,
   "zscore": 0.161,
-  "cusum": -2.635,
+  "cusum": 0.0,
   "flagged": false,
-  "severity": 0.132
+  "severity": 0.019
  },
  {
   "t": "2026-08-20T01:58:00+00:00",
@@ -1423,9 +1423,9 @@
   "observed_c": 1.389,
   "residual": 0.877,
   "zscore": 1.909,
-  "cusum": -1.14,
+  "cusum": 0.294,
   "flagged": false,
-  "severity": 0.273
+  "severity": 0.227
  },
  {
   "t": "2026-08-20T01:59:00+00:00",
@@ -1435,9 +1435,9 @@
   "observed_c": -0.733,
   "residual": 0.013,
   "zscore": -0.015,
-  "cusum": -0.548,
+  "cusum": 0.0,
   "flagged": false,
-  "severity": 0.027
+  "severity": 0.002
  },
  {
   "t": "2026-08-20T02:00:00+00:00",
@@ -1449,7 +1449,7 @@
   "zscore": 0.348,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.05
+  "severity": 0.041
  },
  {
   "t": "2026-08-20T02:01:00+00:00",
@@ -1461,7 +1461,7 @@
   "zscore": 1.493,
   "cusum": 0.039,
   "flagged": false,
-  "severity": 0.213
+  "severity": 0.178
  },
  {
   "t": "2026-08-20T02:02:00+00:00",
@@ -1473,7 +1473,7 @@
   "zscore": 1.896,
   "cusum": 0.228,
   "flagged": false,
-  "severity": 0.271
+  "severity": 0.226
  },
  {
   "t": "2026-08-20T02:03:00+00:00",
@@ -1485,7 +1485,7 @@
   "zscore": 1.577,
   "cusum": 0.315,
   "flagged": false,
-  "severity": 0.225
+  "severity": 0.188
  },
  {
   "t": "2026-08-20T02:04:00+00:00",
@@ -1497,7 +1497,7 @@
   "zscore": 1.221,
   "cusum": 0.193,
   "flagged": false,
-  "severity": 0.174
+  "severity": 0.145
  },
  {
   "t": "2026-08-20T02:05:00+00:00",
@@ -1509,7 +1509,7 @@
   "zscore": 1.07,
   "cusum": 0.002,
   "flagged": false,
-  "severity": 0.153
+  "severity": 0.127
  },
  {
   "t": "2026-08-20T02:06:00+00:00",
@@ -1521,7 +1521,7 @@
   "zscore": 1.136,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.162
+  "severity": 0.135
  },
  {
   "t": "2026-08-20T02:07:00+00:00",
@@ -1533,7 +1533,7 @@
   "zscore": 1.701,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.243
+  "severity": 0.202
  },
  {
   "t": "2026-08-20T02:08:00+00:00",
@@ -1545,7 +1545,7 @@
   "zscore": 1.02,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.146
+  "severity": 0.121
  },
  {
   "t": "2026-08-20T02:09:00+00:00",
@@ -1557,7 +1557,7 @@
   "zscore": 1.574,
   "cusum": 0.0,
   "flagged": false,
-  "severity": 0.225
+  "severity": 0.187
  },
  {
   "t": "2026-08-20T02:10:00+00:00",
@@ -1569,7 +1569,7 @@
   "zscore": 1.953,
   "cusum": 0.115,
   "flagged": false,
-  "severity": 0.279
+  "severity": 0.233
  },
  {
   "t": "2026-08-20T02:11:00+00:00",
@@ -1581,7 +1581,7 @@
   "zscore": 1.46,
   "cusum": 0.073,
   "flagged": false,
-  "severity": 0.209
+  "severity": 0.174
  },
  {
   "t": "2026-08-20T02:12:00+00:00",
@@ -1593,7 +1593,7 @@
   "zscore": 2.252,
   "cusum": 0.358,
   "flagged": false,
-  "severity": 0.322
+  "severity": 0.268
  },
  {
   "t": "2026-08-20T02:13:00+00:00",
@@ -1605,7 +1605,7 @@
   "zscore": 2.065,
   "cusum": 0.617,
   "flagged": false,
-  "severity": 0.295
+  "severity": 0.246
  },
  {
   "t": "2026-08-20T02:14:00+00:00",
@@ -1617,7 +1617,7 @@
   "zscore": 3.21,
   "cusum": 1.442,
   "flagged": false,
-  "severity": 0.459
+  "severity": 0.382
  },
  {
   "t": "2026-08-20T02:15:00+00:00",
@@ -1629,7 +1629,7 @@
   "zscore": 1.731,
   "cusum": 1.697,
   "flagged": false,
-  "severity": 0.247
+  "severity": 0.206
  },
  {
   "t": "2026-08-20T02:16:00+00:00",
@@ -1641,7 +1641,7 @@
   "zscore": 1.258,
   "cusum": 1.73,
   "flagged": false,
-  "severity": 0.18
+  "severity": 0.157
  },
  {
   "t": "2026-08-20T02:17:00+00:00",
@@ -1653,7 +1653,7 @@
   "zscore": 1.387,
   "cusum": 1.843,
   "flagged": false,
-  "severity": 0.198
+  "severity": 0.168
  },
  {
   "t": "2026-08-20T02:18:00+00:00",
@@ -1665,7 +1665,7 @@
   "zscore": 1.697,
   "cusum": 2.127,
   "flagged": false,
-  "severity": 0.242
+  "severity": 0.202
  },
  {
   "t": "2026-08-20T02:19:00+00:00",
@@ -1677,7 +1677,7 @@
   "zscore": 2.373,
   "cusum": 2.76,
   "flagged": false,
-  "severity": 0.339
+  "severity": 0.283
  },
  {
   "t": "2026-08-20T02:20:00+00:00",
@@ -1689,7 +1689,7 @@
   "zscore": 1.452,
   "cusum": 2.976,
   "flagged": false,
-  "severity": 0.207
+  "severity": 0.271
  },
  {
   "t": "2026-08-20T02:21:00+00:00",
@@ -1701,7 +1701,7 @@
   "zscore": 1.902,
   "cusum": 3.48,
   "flagged": false,
-  "severity": 0.272
+  "severity": 0.316
  },
  {
   "t": "2026-08-20T02:22:00+00:00",
@@ -1713,7 +1713,7 @@
   "zscore": 2.702,
   "cusum": 4.485,
   "flagged": false,
-  "severity": 0.386
+  "severity": 0.408
  },
  {
   "t": "2026-08-20T02:23:00+00:00",
@@ -1725,7 +1725,7 @@
   "zscore": 0.027,
   "cusum": 3.901,
   "flagged": false,
-  "severity": 0.195
+  "severity": 0.355
  },
  {
   "t": "2026-08-20T02:24:00+00:00",
@@ -1737,7 +1737,7 @@
   "zscore": 0.875,
   "cusum": 3.829,
   "flagged": false,
-  "severity": 0.191
+  "severity": 0.348
  },
  {
   "t": "2026-08-20T02:25:00+00:00",
@@ -1749,7 +1749,7 @@
   "zscore": 1.662,
   "cusum": 4.212,
   "flagged": false,
-  "severity": 0.237
+  "severity": 0.383
  },
  {
   "t": "2026-08-20T02:26:00+00:00",
@@ -1761,7 +1761,7 @@
   "zscore": 1.656,
   "cusum": 4.597,
   "flagged": false,
-  "severity": 0.237
+  "severity": 0.418
  },
  {
   "t": "2026-08-20T02:27:00+00:00",
@@ -1773,7 +1773,7 @@
   "zscore": 1.429,
   "cusum": 4.88,
   "flagged": false,
-  "severity": 0.244
+  "severity": 0.444
  },
  {
   "t": "2026-08-20T02:28:00+00:00",
@@ -1785,7 +1785,7 @@
   "zscore": 0.941,
   "cusum": 4.844,
   "flagged": false,
-  "severity": 0.242
+  "severity": 0.44
  },
  {
   "t": "2026-08-20T02:29:00+00:00",
@@ -1797,7 +1797,7 @@
   "zscore": 1.461,
   "cusum": 5.125,
   "flagged": false,
-  "severity": 0.256
+  "severity": 0.466
  },
  {
   "t": "2026-08-20T02:30:00+00:00",
@@ -1809,7 +1809,7 @@
   "zscore": 1.105,
   "cusum": 5.159,
   "flagged": false,
-  "severity": 0.258
+  "severity": 0.469
  },
  {
   "t": "2026-08-20T02:31:00+00:00",
@@ -1821,7 +1821,7 @@
   "zscore": 0.435,
   "cusum": 4.795,
   "flagged": false,
-  "severity": 0.24
+  "severity": 0.436
  },
  {
   "t": "2026-08-20T02:32:00+00:00",
@@ -1833,7 +1833,7 @@
   "zscore": 2.221,
   "cusum": 5.366,
   "flagged": false,
-  "severity": 0.317
+  "severity": 0.488
  },
  {
   "t": "2026-08-20T02:33:00+00:00",
@@ -1845,7 +1845,7 @@
   "zscore": 0.553,
   "cusum": 5.074,
   "flagged": false,
-  "severity": 0.254
+  "severity": 0.461
  },
  {
   "t": "2026-08-20T02:34:00+00:00",
@@ -1857,7 +1857,7 @@
   "zscore": -0.241,
   "cusum": 4.342,
   "flagged": false,
-  "severity": 0.217
+  "severity": 0.395
  },
  {
   "t": "2026-08-20T02:35:00+00:00",
@@ -1869,7 +1869,7 @@
   "zscore": -0.176,
   "cusum": 3.65,
   "flagged": false,
-  "severity": 0.183
+  "severity": 0.332
  },
  {
   "t": "2026-08-20T02:36:00+00:00",
@@ -1881,7 +1881,7 @@
   "zscore": -0.539,
   "cusum": 2.783,
   "flagged": false,
-  "severity": 0.139
+  "severity": 0.253
  },
  {
   "t": "2026-08-20T02:37:00+00:00",
@@ -1893,7 +1893,7 @@
   "zscore": -0.72,
   "cusum": 1.843,
   "flagged": false,
-  "severity": 0.103
+  "severity": 0.168
  },
  {
   "t": "2026-08-20T02:38:00+00:00",
@@ -1905,7 +1905,7 @@
   "zscore": -3.053,
   "cusum": -0.798,
   "flagged": false,
-  "severity": 0.436
+  "severity": 0.363
  },
  {
   "t": "2026-08-20T02:39:00+00:00",
@@ -1917,7 +1917,7 @@
   "zscore": -1.43,
   "cusum": -0.908,
   "flagged": false,
-  "severity": 0.204
+  "severity": 0.17
  },
  {
   "t": "2026-08-20T02:40:00+00:00",
@@ -1929,7 +1929,7 @@
   "zscore": -0.6,
   "cusum": -0.607,
   "flagged": false,
-  "severity": 0.086
+  "severity": 0.071
  },
  {
   "t": "2026-08-20T02:41:00+00:00",
@@ -1941,7 +1941,7 @@
   "zscore": -2.393,
   "cusum": -1.187,
   "flagged": false,
-  "severity": 0.342
+  "severity": 0.285
  },
  {
   "t": "2026-08-20T02:42:00+00:00",
@@ -1953,7 +1953,7 @@
   "zscore": -1.682,
   "cusum": -1.472,
   "flagged": false,
-  "severity": 0.24
+  "severity": 0.2
  },
  {
   "t": "2026-08-20T02:43:00+00:00",
@@ -1965,7 +1965,7 @@
   "zscore": -1.129,
   "cusum": -1.491,
   "flagged": false,
-  "severity": 0.161
+  "severity": 0.136
  },
  {
   "t": "2026-08-20T02:44:00+00:00",
@@ -1977,7 +1977,7 @@
   "zscore": -1.362,
   "cusum": -1.651,
   "flagged": false,
-  "severity": 0.195
+  "severity": 0.162
  },
  {
   "t": "2026-08-20T02:45:00+00:00",
@@ -1989,7 +1989,7 @@
   "zscore": -1.099,
   "cusum": -1.676,
   "flagged": false,
-  "severity": 0.157
+  "severity": 0.152
  },
  {
   "t": "2026-08-20T02:46:00+00:00",
@@ -2001,7 +2001,7 @@
   "zscore": -3.191,
   "cusum": -2.927,
   "flagged": false,
-  "severity": 0.456
+  "severity": 0.38
  },
  {
   "t": "2026-08-20T02:47:00+00:00",
@@ -2013,7 +2013,7 @@
   "zscore": -2.173,
   "cusum": -3.778,
   "flagged": false,
-  "severity": 0.31
+  "severity": 0.343
  },
  {
   "t": "2026-08-20T02:48:00+00:00",
@@ -2025,7 +2025,7 @@
   "zscore": -2.125,
   "cusum": -4.702,
   "flagged": false,
-  "severity": 0.304
+  "severity": 0.427
  },
  {
   "t": "2026-08-20T02:49:00+00:00",
@@ -2037,7 +2037,7 @@
   "zscore": -1.627,
   "cusum": -5.348,
   "flagged": false,
-  "severity": 0.267
+  "severity": 0.486
  },
  {
   "t": "2026-08-20T02:50:00+00:00",
@@ -2049,7 +2049,7 @@
   "zscore": -1.434,
   "cusum": -5.876,
   "flagged": false,
-  "severity": 0.294
+  "severity": 0.534
  },
  {
   "t": "2026-08-20T02:51:00+00:00",
@@ -2059,9 +2059,9 @@
   "observed_c": -15.388,
   "residual": -1.258,
   "zscore": -3.088,
-  "cusum": -7.776,
+  "cusum": -1.9,
   "flagged": false,
-  "severity": 0.441
+  "severity": 0.368
  },
  {
   "t": "2026-08-20T02:52:00+00:00",
@@ -2071,9 +2071,9 @@
   "observed_c": -12.924,
   "residual": -0.028,
   "zscore": -1.272,
-  "cusum": -8.338,
+  "cusum": -2.462,
   "flagged": false,
-  "severity": 0.417
+  "severity": 0.224
  },
  {
   "t": "2026-08-20T02:53:00+00:00",
@@ -2083,9 +2083,9 @@
   "observed_c": -12.582,
   "residual": -0.993,
   "zscore": -2.274,
-  "cusum": -9.779,
+  "cusum": -3.903,
   "flagged": false,
-  "severity": 0.489
+  "severity": 0.355
  },
  {
   "t": "2026-08-20T02:54:00+00:00",
@@ -2095,9 +2095,9 @@
   "observed_c": -10.534,
   "residual": -0.313,
   "zscore": -1.334,
-  "cusum": -10.473,
-  "flagged": true,
-  "severity": 0.524
+  "cusum": -4.597,
+  "flagged": false,
+  "severity": 0.418
  },
  {
   "t": "2026-08-20T02:55:00+00:00",
@@ -2107,9 +2107,9 @@
   "observed_c": -9.93,
   "residual": -1.127,
   "zscore": -2.065,
-  "cusum": -1.445,
+  "cusum": -6.041,
   "flagged": false,
-  "severity": 0.295
+  "severity": 0.549
  },
  {
   "t": "2026-08-20T02:56:00+00:00",
@@ -2119,9 +2119,9 @@
   "observed_c": -7.931,
   "residual": -0.583,
   "zscore": -1.352,
-  "cusum": -2.238,
+  "cusum": -0.794,
   "flagged": false,
-  "severity": 0.193
+  "severity": 0.161
  },
  {
   "t": "2026-08-20T02:57:00+00:00",
@@ -2131,9 +2131,9 @@
   "observed_c": -6.122,
   "residual": -0.253,
   "zscore": -0.945,
-  "cusum": -2.611,
+  "cusum": -1.167,
   "flagged": false,
-  "severity": 0.135
+  "severity": 0.112
  },
  {
   "t": "2026-08-20T02:58:00+00:00",
@@ -2143,9 +2143,9 @@
   "observed_c": -5.115,
   "residual": -0.738,
   "zscore": -1.364,
-  "cusum": -3.391,
+  "cusum": -1.947,
   "flagged": false,
-  "severity": 0.195
+  "severity": 0.177
  },
  {
   "t": "2026-08-20T02:59:00+00:00",
@@ -2155,8 +2155,8 @@
   "observed_c": -3.505,
   "residual": -0.621,
   "zscore": -1.158,
-  "cusum": -3.969,
+  "cusum": -2.524,
   "flagged": false,
-  "severity": 0.198
+  "severity": 0.229
  }
 ]

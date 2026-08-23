@@ -7,8 +7,8 @@ This model does NOT know about albedo, Earth IR, or sensor behaviour. That is
 the point — see telemetry_sim.py. Keeping the predictor simpler than reality is
 what gives the residual real structure.
 
-TODO (Abdul): tune T_HOT / T_COLD / TAU against the simulator so nominal
-residuals sit inside a couple of degrees.
+The constants intentionally remain close to, but distinct from, the simulator
+so nominal residuals are structured without resembling injected faults.
 """
 
 from __future__ import annotations

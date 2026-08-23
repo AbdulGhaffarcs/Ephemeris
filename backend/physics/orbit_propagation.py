@@ -48,6 +48,10 @@ _TLE_URL_JSON = (
 _TLE_URL_TXT = (
     f"https://celestrak.org/SATCAT/tle.php?CATNR={ISS_NORAD_ID}&FORMAT=TLE"
 )
+# The dashboard gives a live API request four seconds before it falls back to
+# its committed fixtures.  Keep enough of that budget for propagation while
+# still attempting both live TLE sources before using the disk cache.
+TLE_FETCH_TIMEOUT_S = 1.25
 
 # ---------------------------------------------------------------------------
 # Skyfield timescale (module-level singleton — loading it is expensive)
@@ -63,7 +67,7 @@ def _fetch_tle_from_network() -> tuple[str, str, str]:
     """Return (name, line1, line2) from CelesTrak, or raise on failure."""
     # Primary: JSON GP endpoint
     try:
-        r = httpx.get(_TLE_URL_JSON, timeout=10.0)
+        r = httpx.get(_TLE_URL_JSON, timeout=TLE_FETCH_TIMEOUT_S)
         r.raise_for_status()
         data = r.json()
         if isinstance(data, list) and data:
@@ -78,7 +82,7 @@ def _fetch_tle_from_network() -> tuple[str, str, str]:
 
     # Secondary: plain 3-line TLE text endpoint
     try:
-        r = httpx.get(_TLE_URL_TXT, timeout=10.0)
+        r = httpx.get(_TLE_URL_TXT, timeout=TLE_FETCH_TIMEOUT_S)
         r.raise_for_status()
         lines = [ln.strip() for ln in r.text.strip().splitlines() if ln.strip()]
         if len(lines) >= 3:
@@ -163,7 +167,9 @@ def propagate(
     satellite = EarthSatellite(line1, line2, name, _ts)
     period_s = _tle_period_s(satellite.model)
 
-    n = int(hours * 3600 / step_s)
+    # A valid window can be shorter than its sampling interval.  Return the
+    # initial state instead of an empty but otherwise successful response.
+    n = max(1, math.ceil(hours * 3600 / step_s))
 
     t0_utc = (
         start.replace(tzinfo=timezone.utc)

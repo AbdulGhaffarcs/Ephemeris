@@ -22,6 +22,7 @@ import re
 import json
 import hashlib
 import statistics
+from datetime import datetime
 from dataclasses import dataclass, asdict, field
 from typing import Any, Literal
 
@@ -230,6 +231,20 @@ def _slope(xs: list[float], ys: list[float]) -> float:
     return sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / denom
 
 
+def _elapsed_minutes(window: list[AnomalyPoint]) -> list[float]:
+    """Use request timestamps so feature values respect the sample interval."""
+    try:
+        times = [datetime.fromisoformat(p.t.replace("Z", "+00:00")) for p in window]
+        first = times[0]
+        elapsed = [(t - first).total_seconds() / 60.0 for t in times]
+        if any(b < a for a, b in zip(elapsed, elapsed[1:])):
+            raise ValueError("timestamps must be ordered")
+        return elapsed
+    except (TypeError, ValueError):
+        # Preserve compatibility with older clients that sent non-ISO strings.
+        return [float(i) for i in range(len(window))]
+
+
 def classify(window: list[AnomalyPoint]) -> Shape:
     """Deterministic pre-classifier. Granite does not do this step."""
     res = [p.residual for p in window]
@@ -244,19 +259,34 @@ def classify(window: list[AnomalyPoint]) -> Shape:
         return "flatline"
 
     flagged_frac = sum(1 for p in window if p.flagged) / n
-    if flagged_frac < 0.05:
+    # CUSUM deliberately emits sparse alerts for slow drifts.  Treat a window
+    # as nominal only when it contains no detector evidence at all.
+    if flagged_frac == 0:
         return "nominal"
+
+    # A brief, dominant excursion remains a spike even if it happens to cross
+    # an eclipse transition.  Checking this before phase locking prevents a
+    # genuine transient from being mislabeled as model error.
+    if flagged_frac < 0.25 and abs(peak) > 3 * abs(mean or 1e-9):
+        return "spike"
+
+    # A large one-sample jump followed by a sustained offset is a step fault,
+    # not a gradual drift.  This is evaluated before eclipse correlation so a
+    # heater fault that happens near an eclipse boundary remains a heater fault.
+    deltas = [b - a for a, b in zip(res, res[1:])]
+    if deltas:
+        largest_delta = max(deltas, key=abs)
+        typical_delta = statistics.median(abs(d) for d in deltas) or 1e-9
+        if abs(largest_delta) >= max(3.0, 5 * typical_delta):
+            return "step_up" if largest_delta > 0 else "step_down"
 
     # phase-locked: flagged points cluster on one side of an eclipse boundary
     boundary_hits = sum(
         1 for i, p in enumerate(window)
         if p.flagged and i > 0 and window[i - 1].eclipse != p.eclipse
     )
-    if flagged_frac < 0.35 and boundary_hits > 0:
+    if flagged_frac < 0.15 and boundary_hits > 0:
         return "phase_locked"
-
-    if flagged_frac < 0.15 and abs(peak) > 3 * abs(mean or 1e-9):
-        return "spike"
 
     sign_changes = sum(1 for a, b in zip(res, res[1:]) if a * b < 0)
     if sign_changes > n * 0.3:
@@ -273,8 +303,8 @@ def extract(req: ExplainRequest) -> Features:
     res = [p.residual for p in w]
     sunlit = [p.residual for p in w if not p.eclipse]
     eclipsed = [p.residual for p in w if p.eclipse]
-    step_min = 1.0  # minutes per sample; wire to your /anomaly step_s
-    slope = _slope([float(i) * step_min / 60 for i in range(len(res))], res)
+    elapsed_min = _elapsed_minutes(w)
+    slope = _slope([minutes / 60 for minutes in elapsed_min], res)
 
     s_mean = round(statistics.fmean(sunlit), 2) if sunlit else 0.0
     e_mean = round(statistics.fmean(eclipsed), 2) if eclipsed else 0.0
@@ -292,7 +322,7 @@ def extract(req: ExplainRequest) -> Features:
 
     return Features(
         subsystem=req.subsystem,
-        duration_min=round(len(w) * step_min, 1),
+        duration_min=round(elapsed_min[-1], 1),
         peak_residual_c=round(max(res, key=abs), 2),
         mean_residual_c=round(statistics.fmean(res), 2),
         residual_slope_c_per_hr=round(slope, 3),
@@ -451,6 +481,37 @@ def _parse(raw: str) -> dict[str, Any]:
     return json.loads(cleaned[start:end + 1])
 
 
+def _valid_granite_output(out: dict[str, Any], f: Features) -> bool:
+    """Ensure the structured answer still obeys the signature-table contract.
+
+    Grounding the prose is not sufficient: a model could cite an allowed cause
+    while attaching an unrelated signature ID or model-error flag.  Validate
+    every operator-visible structured field before returning or caching it.
+    """
+    if not all(isinstance(out.get(key), str) and out[key].strip()
+               for key in ("headline", "reasoning", "recommended_action")):
+        return False
+
+    cause = out.get("likely_cause")
+    signature_id = out.get("signature_id")
+    model_error = out.get("is_model_error")
+    confidence = out.get("confidence")
+
+    if not isinstance(model_error, bool):
+        return False
+    if (not isinstance(confidence, (int, float)) or isinstance(confidence, bool)
+            or not 0.0 <= confidence <= 1.0):
+        return False
+
+    if cause == "indeterminate":
+        return signature_id is None and model_error is False
+
+    if signature_id not in f.candidate_ids:
+        return False
+    signature = SIGNATURE_BY_ID[signature_id]
+    return cause in signature.causes and model_error is signature.is_model_error
+
+
 def template_explanation(f: Features) -> dict[str, Any]:
     """Deterministic fallback. The demo must never show an empty panel."""
     if not f.candidate_ids:
@@ -510,11 +571,8 @@ async def explain(req: ExplainRequest) -> dict[str, Any]:
             out = _parse(raw)
             prose = f"{out.get('headline','')} {out.get('reasoning','')} {out.get('recommended_action','')}"
             grounded, bad = is_grounded(prose, f)
-            valid_cause = (
-                out.get("likely_cause") == "indeterminate"
-                or any(out.get("likely_cause") in SIGNATURE_BY_ID[c].causes for c in f.candidate_ids)
-            )
-            if grounded and valid_cause:
+            valid_output = _valid_granite_output(out, f)
+            if grounded and valid_output:
                 out["source"] = "granite"
                 _CACHE[key] = out
                 return {**out, "features": asdict(f)}
@@ -522,8 +580,11 @@ async def explain(req: ExplainRequest) -> dict[str, Any]:
                 problems = []
                 if not grounded:
                     problems.append(f"you cited numbers not in the data: {bad}")
-                if not valid_cause:
-                    problems.append("likely_cause was not one of the supplied candidate causes")
+                if not valid_output:
+                    problems.append(
+                        "the JSON fields did not match a supplied signature, "
+                        "its model-error status, or the required confidence range"
+                    )
                 user += "\n\nYour previous answer was rejected because " + "; ".join(problems) + ". Retry."
         except Exception:
             break
