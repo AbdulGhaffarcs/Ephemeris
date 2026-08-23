@@ -21,7 +21,9 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    # Browsers treat localhost and 127.0.0.1 as different origins. Support
+    # both common local dashboard addresses so CORS cannot hide live telemetry.
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
