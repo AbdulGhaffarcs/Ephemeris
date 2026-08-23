@@ -56,7 +56,15 @@ export async function fetchAnomalies(
       : e instanceof Error
       ? e.message
       : "backend unreachable";
-    return { data: await fixture(q.scenario), origin: "fixture", note: why };
+    // Fixtures are deliberately committed at one resolution.  Keep the
+    // selected controls intact, but make the mismatch explicit so a 3-hour
+    // fixture is never mistaken for a live 6- or 12-hour query.
+    const fixtureResolution = "fixture is a fixed 3-hour run at 60-second samples";
+    return {
+      data: await fixture(q.scenario),
+      origin: "fixture",
+      note: `${why}; ${fixtureResolution}`,
+    };
   } finally {
     clearTimeout(timer);
   }

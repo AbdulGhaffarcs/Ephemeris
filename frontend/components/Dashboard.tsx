@@ -134,13 +134,14 @@ export default function Dashboard() {
     [events, points, selectEvent, explainWindow]
   );
 
-  /** On every fresh run, open on the worst event so the dashboard is never a
-   *  blank panel waiting to be clicked. */
+  /** On every fresh run, open the event with the largest physical discrepancy.
+   *  A recovery edge can have the largest z-score, but the largest residual is
+   *  the event that best represents the fault an operator needs to diagnose. */
   useEffect(() => {
     if (loadingTelemetry || !points.length) return;
     explainToken.current++; // invalidate anything still in flight
     const worst = events.reduce<AnomalyEvent | null>(
-      (a, e) => (!a || e.peakSeverity > a.peakSeverity ? e : a),
+      (a, e) => (!a || Math.abs(e.peakResidual) > Math.abs(a.peakResidual) ? e : a),
       null
     );
     if (worst) {
