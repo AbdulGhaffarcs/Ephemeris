@@ -3,7 +3,7 @@
 A physics-grounded digital-twin anomaly detector for spacecraft telemetry.
 
 IBM Bob AI Builders Challenge — Space Exploration Theme
-Team: Abdul Ghaffar (Track B) & Eman (Track A) · Deadline: 31 Aug 2026
+Team: Eman (Track A) & Abdul Ghaffar (Track B) · Deadline: 31 Aug 2026
 
 ---
 
@@ -66,23 +66,66 @@ only from a closed signature catalog, and has every numerical claim validated.
 When watsonx credentials are not configured, the same contract is served by a
 deterministic explanation template so the prototype remains usable offline.
 
+## My contribution — Eman (Track A: Physics & Detection)
+
+- **`orbit_propagation.py`** — Replaced the initial circular-orbit placeholder
+  with real SGP4/Skyfield propagation against a cached ISS TLE. Computes sun
+  angle, eclipse state, and orbit phase, with an offline TLE fallback. Eclipse
+  timing was cross-validated against real published ISS pass data (N2YO).
+
+- **`telemetry_sim.py`** — The richer, "ground truth" simulator that models
+  what the predictor deliberately doesn't: longer thermal lag, phase-dependent
+  albedo, sensor noise, small per-orbit variation, and three injectable fault
+  types (spike, drift, hard-fault) for testing the detector.
+
+- **`detector.py`** — Combines a rolling z-score (catches sudden spikes and
+  step changes) with CUSUM (catches slow gradual drift that a threshold alone
+  would miss). Thresholds were tuned and stress-tested across multiple time
+  windows (2–12 hours) to eliminate false alarms on nominal data while keeping
+  all three injected fault types reliably detectable.
+
+- **`explain.py` (signature table, above the seam)** — Built the fault-signature
+  catalog and pre-classification logic that turns a detected residual shape
+  into a bounded set of candidate explanations for the AI layer to choose from.
+
+- **API contract & validation** — `/predict` and `/anomaly` endpoints, including
+  input validation (e.g. proper 404s on unsupported satellite IDs instead of
+  silently returning wrong data).
+
 ## IBM Bob usage
 
-IBM Bob is a required primary development tool for this challenge. Before
-submission, replace this paragraph with a truthful, team-specific account of
-how Abdul and Eman used IBM Bob—for example, the prompts or workflows used for
-planning, code generation, debugging, tests, and documentation. Do not claim
-usage that the team cannot substantiate.
+<!--
+  EDIT THIS SECTION BEFORE SUBMITTING.
+  Write only what actually happened — the challenge platform can request
+  evidence, and this repo includes exported Bob chat sessions (see
+  bob-sessions/) as backup. Replace the bracketed placeholders below with
+  the real prompts/workflows each of you used.
+-->
+
+We used IBM Bob throughout development on both tracks.
+
+On the physics/detection side (Track A — Eman), Bob was used to
+[describe: e.g. scaffold the SGP4/Skyfield integration, debug the
+eclipse-fraction and CUSUM-latching bugs found during testing, iterate on
+detector threshold tuning across test scenarios].
+
+On the platform side (Track B — Abdul), Bob was used to
+[describe: e.g. scaffold the Next.js dashboard components, wire the watsonx
+Granite integration, debug frontend data fetching against the live backend].
+
+Exported chat sessions are included under `bob-sessions/` as supporting
+evidence.
 
 ## Repo layout
 
-    backend/            FastAPI + physics core        (Track A — Abdul)
+    backend/            FastAPI + physics core        (Track A — Eman)
       physics/          propagation, predictor, simulator, detector
       api/              /predict, /anomaly, /explain
       fixtures/         committed sample responses for Track B
-    frontend/           Next.js dashboard             (Track B — Eman)
+    frontend/           Next.js dashboard             (Track B — Abdul)
       components/       chart, alert feed, explanation panel
       lib/              typed API clients
+    bob-sessions/        exported IBM Bob chat history (evidence of tool usage)
 
 ## The one rule that governs both tracks
 
@@ -125,5 +168,5 @@ anomaly detection, and a typed dashboard with live/fixture fallback.
 | `thermal_model.py` | Abdul | complete — single-node thermal predictor |
 | `telemetry_sim.py` | Eman | complete — albedo, thermal lag, per-orbit variation, noise, and fault injection |
 | `detector.py` | Eman | complete — rolling z-score plus CUSUM |
-| `explain.py` | Abdul (table) / Eman (watsonx) | complete — deterministic fallback; Granite enabled with credentials |
+| `explain.py` | Eman (table) / Abdul (watsonx) | complete — deterministic fallback; Granite enabled with credentials |
 | frontend | Abdul | complete — responsive telemetry dashboard with live/fixture fallback |
