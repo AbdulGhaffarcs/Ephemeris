@@ -21,6 +21,7 @@ from __future__ import annotations
 import json
 import math
 from datetime import datetime, timedelta, timezone
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -95,6 +96,7 @@ def _fetch_tle_from_network() -> tuple[str, str, str]:
     raise RuntimeError("Both CelesTrak endpoints failed (network unavailable).")
 
 
+@lru_cache(maxsize=1)
 def _load_tle() -> tuple[str, str, str]:
     """Return (name, line1, line2), trying network first then disk cache."""
     try:
