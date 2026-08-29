@@ -3,7 +3,7 @@
 A physics-grounded digital-twin anomaly detector for spacecraft telemetry.
 
 IBM Bob AI Builders Challenge — Space Exploration Theme
-Team: Eman (Track A) & Abdul Ghaffar (Track B) · Deadline: 31 Aug 2026
+Team: Eman (Track A) & Abdul Ghaffar (Track B)
 
 ---
 
@@ -66,7 +66,7 @@ only from a closed signature catalog, and has every numerical claim validated.
 When watsonx credentials are not configured, the same contract is served by a
 deterministic explanation template so the prototype remains usable offline.
 
-## My contribution — Eman (Track A: Physics & Detection)
+## Eman's contribution — Track A: Physics & Detection
 
 - **`orbit_propagation.py`** — Replaced the initial circular-orbit placeholder
   with real SGP4/Skyfield propagation against a cached ISS TLE. Computes sun
@@ -92,15 +92,29 @@ deterministic explanation template so the prototype remains usable offline.
   input validation (e.g. proper 404s on unsupported satellite IDs instead of
   silently returning wrong data).
 
-## IBM Bob usage
+## My contribution — Abdul (Track B: Dashboard & AI Experience)
 
-<!--
-  EDIT THIS SECTION BEFORE SUBMITTING.
-  Write only what actually happened — the challenge platform can request
-  evidence, and this repo includes exported Bob chat sessions (see
-  bob-sessions/) as backup. Replace the bracketed placeholders below with
-  the real prompts/workflows each of you used.
--->
+- **Operator dashboard** — Built the responsive Next.js telemetry dashboard,
+  including the anomaly chart, alert feed, and explanation panel used to turn
+  detector output into an operator-ready view.
+
+- **Thermal model (`thermal_model.py`)** — Developed the single-node
+  lumped-capacitance predictor that estimates panel temperature from sun angle,
+  eclipse state, equilibrium temperatures, and thermal time constants.
+
+- **Live data integration** — Connected the frontend to the backend's typed
+  `/predict`, `/anomaly`, and `/explain` API responses, with fixture fallback
+  so the interface remains usable during offline development.
+
+- **AI explanation experience** — Integrated the watsonx/Granite explanation
+  flow and the deterministic fallback so explanations and recommended actions
+  remain available when credentials are not configured.
+
+- **Completion, debugging & verification** — Verified the frontend production
+  build and the dashboard's live telemetry flow across nominal, spike, drift,
+  and fault scenarios.
+
+## IBM Bob usage
 
 We used IBM Bob throughout development on both tracks.
 
@@ -125,7 +139,7 @@ evidence.
     frontend/           Next.js dashboard             (Track B — Abdul)
       components/       chart, alert feed, explanation panel
       lib/              typed API clients
-    bob-sessions/        exported IBM Bob chat history (evidence of tool usage)
+    Sessions/           exported IBM Bob chat history (evidence of tool usage)
 
 ## The one rule that governs both tracks
 
@@ -155,6 +169,9 @@ Open http://localhost:3000
 
 Until the backend is live, the dashboard falls back to `backend/fixtures/`.
 Track B is never blocked.
+
+For the three-minute problem, architecture, and live walkthrough, see
+[`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
 
 ## Status
 

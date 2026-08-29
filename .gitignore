@@ -14,5 +14,4 @@ next-env.d.ts
 *.log
 *.zip
 design/
-DEMO_SCRIPT.md
 SUBMISSION_REPORT.md
